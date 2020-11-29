@@ -1,0 +1,371 @@
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> <http://creativecommons.org/ns#license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> <http://purl.org/dc/terms/creator> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Individual> .
+<http://www.w3.org/2006/vcard/ns#Individual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2006/vcard/ns#family-name> "Bonduel" .
+_:genid1 <http://www.w3.org/2006/vcard/ns#fn> "Mathias Bonduel" .
+_:genid1 <http://www.w3.org/2006/vcard/ns#given-name> "Mathias" .
+_:genid1 <http://www.w3.org/2006/vcard/ns#hasOrganizationName> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Organization> .
+<http://www.w3.org/2006/vcard/ns#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid2 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.kuleuven.be> .
+_:genid2 <http://www.w3.org/2006/vcard/ns#organization-name> "KU Leuven" .
+_:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://orcid.org/0000-0002-3313-924X> .
+_:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.kuleuven.be/wieiswie/nl/person/00110827> .
+_:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.researchgate.net/profile/Mathias_Bonduel> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> <http://purl.org/dc/terms/decription> "The Monumentenwacht Vlaanderen Tasks ontology is manually created based on existing PDF reports of Monumentenwacht regarding damage inspections. In its current state, it contains preventive and curative repair tasks regarding timber damage [1] and damage caused by insects [2]. It is defined as an extension of the generic Construction Tasks Ontology (CTO, available at https://w3id.org/cto#).\r\n[1] Schoeters, E., Heerwegh, L., and van Laar, B. (2005). Biologische aantastingen in hout. Retrieved from https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf\r\n[2] Deknopper, A. (2010). Dieren in en op Gebouwen: Insecten. Retrieved from https://www.monumentenwacht.be/files/brochure_insecten.pdf"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> <http://purl.org/dc/terms/issued> "2020-11-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> <http://purl.org/dc/terms/title> "Monumentenwacht Vlaanderen Tasks Ontology"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> <http://purl.org/vocab/vann/preferredNamespacePrefix> "mw-t" .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#" .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> <http://www.w3.org/2000/01/rdf-schema#comment> "- Version 0.0.1: initial version"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/decription
+<http://purl.org/dc/terms/decription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#family-name
+<http://www.w3.org/2006/vcard/ns#family-name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#fn
+<http://www.w3.org/2006/vcard/ns#fn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#given-name
+<http://www.w3.org/2006/vcard/ns#given-name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasOrganizationName
+<http://www.w3.org/2006/vcard/ns#hasOrganizationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasURL
+<http://www.w3.org/2006/vcard/ns#hasURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#organization-name
+<http://www.w3.org/2006/vcard/ns#organization-name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/vocommons/voaf#Vocabulary
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/vcard/ns#Individual
+# 
+# http://www.w3.org/2006/vcard/ns#Organization
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cto#RepairTask> .
+<https://w3id.org/cto#RepairTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair> <http://www.w3.org/2000/01/rdf-schema#comment> "De moderne erfgoedzorg streeft ernaar originele delen maximaal te behouden. Bij bouwkundige onderdelen wordt daarom liefst niet méér dan de aangetaste delen verwijderd. Die kunnen vervangen worden door nieuwe houten inzetstukken (die preventief beschermd werden) of er kan een prothese gemaakt worden met een epoxyharsmortel."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair> <http://www.w3.org/2000/01/rdf-schema#label> "Aangetast hout herstellen"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair> <http://www.w3.org/2000/01/rdf-schema#label> "Degraded timber repair"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=27" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Cavity-insert
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Cavity-insert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Cavity-insert> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Cavity-insert> <http://www.w3.org/2000/01/rdf-schema#comment> "Aangetaste houten delen kunnen vervangen worden door nieuwe houten inzetstukken (die preventief beschermd werden)."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Cavity-insert> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Cavity-insert> <http://www.w3.org/2000/01/rdf-schema#label> "Aangetast hout herstellen"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Cavity-insert> <http://www.w3.org/2000/01/rdf-schema#label> "Cavity insert"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Cavity-insert> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=27" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Epoxy-resin-mortar-prosthesis
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Epoxy-resin-mortar-prosthesis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Epoxy-resin-mortar-prosthesis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Epoxy-resin-mortar-prosthesis> <http://www.w3.org/2000/01/rdf-schema#comment> "Aangetaste houten delen kunnen vervangen worden door een prothese gemaakt met een epoxyharsmortel. Bij dit laatste worden glasvezelstaven of roestvrijstalen staven ingebracht als wapening. Om het uitzicht zo natuurlijk mogelijk te houden wordt soms de houten bekisting bewaard waarin het epoxy wordt gegoten of wordt het oppervlak van het epoxy nadien bijgewerkt om hout te imiteren. In speciale gevallen worden de buitenzijden van een inwendig vermolmde balk behouden en wordt de binnenzijde met het kunsthars gevuld. Het nadeel van de herstellingen met epoxyhars is nog steeds de beperktere weerstand tegen hitte (veroorzaakt door brand). Zeker voor dikke balken is de brandweerstand van hout beter dan die van de epoxyherstelling. Het spreekt voor zich dat het verharden en vervangen van bouwkundige onderdelen specialistenwerk is. In de handel vindt u echter ook een ruime keuze van vulmiddelen waarmee u zelf aan de slag kunt voor kleinere delen, zoals ramen of deuren. Meestal betreft het ook tweecomponentenepoxyhars. Het verharden en eventueel bijwerken van beelden en andere esthetische onderdelen is dan weer het werk van een restaurateur. Zelf ingrijpen zal in de meeste gevallen onomkeerbare extra schade toebrengen. In de huidige restauratiefilosofie heerst veeleer een terughoudendheid tegen het vervangen van verdwenen delen en wordt er voorkeur aan gegeven om het resterende houtsnijwerk in die mate te verharden dat het weer veilig gemanipuleerd kan worden."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Epoxy-resin-mortar-prosthesis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Epoxy-resin-mortar-prosthesis> <http://www.w3.org/2000/01/rdf-schema#label> "Epoxy resin mortar prosthesis"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Epoxy-resin-mortar-prosthesis> <http://www.w3.org/2000/01/rdf-schema#label> "Epoxyharsmortel prothese"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Epoxy-resin-mortar-prosthesis> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=27" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cto#RepairTask> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control> <http://www.w3.org/2000/01/rdf-schema#comment> "U kunt best zelf een aantal maatregelen treffen om de groei van een zwam af te remmen of te stoppen. Vaak zijn dat kleine dingen die erger kunnen voorkomen in afwachting van de komst van een specialist. Zwamaantastingen zijn al gauw te groot om eigenhandig te verwijderen. Doe daarom tijdig een beroep op specialisten. De bestrijding zal afhangen van het type zwam dat wordt vastgesteld."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control> <http://www.w3.org/2000/01/rdf-schema#label> "Bestrijding van zwammen"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control> <http://www.w3.org/2000/01/rdf-schema#label> "Fungi control"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=12" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Address-moisture-problems
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Address-moisture-problems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Address-moisture-problems> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Address-moisture-problems> <http://www.w3.org/2000/01/rdf-schema#comment> "Door vocht weg te nemen – één van de grootste basisvoorwaarden – kan de verdere groei van een zwam stopgezet worden. De zwam zal dan in een rustperiode komen en uiteindelijk afsterven, met uitzondering van de huiszwam. Vergeet niet alle mogelijke oorzaken van vochtproblemen na te gaan: optrekkend grondwater, doorslaande regen, gebrekkige verluchting, condensatie, lekken in leidingen of in het dak, verstopte dakgoten… Zouten die vaak in muren zitten, verergeren het probleem omdat ze vocht aantrekken en vasthouden. Pas wanneer de exacte oorzaak bekend is, kunnen er gepaste maatregelen getroffen worden opdat de getroffen ruimte goed kan uitdrogen. Nadat de oorzaak van het vochtprobleem is weggenomen, kan extra ventilatie of in geval van extreme vochtigheid een tijdelijke verwarming, het uitdrogen versnellen. Let in beide gevallen op voor condensatie op koude constructies want dat kan een bijkomend vochtprobleem veroorzaken. Bij tijdelijke verwarming bestaat het risico dat het hout krimpt, kromtrekt of zelfs scheurt. Een gecontroleerde uitdroging, bij voorkeur door ventilatie, is dus aan te raden. Voorts helpt het ook om de besmette ruimte stofvrij te houden en vuilophoping te vermijden."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Address-moisture-problems> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Address-moisture-problems> <http://www.w3.org/2000/01/rdf-schema#label> "Address moisture problems"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Address-moisture-problems> <http://www.w3.org/2000/01/rdf-schema#label> "Los vochtproblemen op"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Address-moisture-problems> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=12" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Fungicide
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Fungicide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Fungicide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Fungicide> <http://www.w3.org/2000/01/rdf-schema#comment> "In het geval van huiszwam moet al het aangetaste hout en het hout in een veiligheidszone van 1 meter rond de aantasting verwijderd worden en onmiddellijk buiten het pand afgevoerd, dit laatste om een nieuwe aantasting te voorkomen. De bepleistering moet van de muren gekapt worden omdat de zwamdraden zich tussen de muur en de bepleistering kunnen vertakken. Spouwmuren of schouwdoorgangen zullen op verschillende plaatsen opengemaakt moeten worden, opdat de inwendige wanden ook behandeld kunnen worden. Bij andere zwammen, zoals kelderzwam of eikenzwam, moet enkel ingegrepen worden in de aangetaste zone. Daar moet onder meer het aangetaste hout verwijderd worden. Bij lichte aantasting volstaat meestal dat de zwam drooggelegd wordt (ventilatie; verwarming). Bij zwaardere aantasting wordt bij voorkeur ook een plaatselijke chemische bestrijding toegepast. Bij historisch waardevolle constructies (gesculpteerde houten balken, muurschilderingen, waardevol stucwerk…), waarbij het aangewezen is zoveel mogelijk materiaal te bewaren, zal een ingewikkeldere bestrijdingstechniek gebruikt moeten worden. Deze technieken vragen meer tijd en vaak is een herhaalde behandeling nodig. In de ontmantelde zone moeten de muren grondig afgeschuurd worden met een stalen borstel. Muurvlakken worden ontsmet met behulp van een steekvlam (bijzondere waakzaamheid is geboden voor gas- en elektriciteitsleidingen). Losse objecten in de omgeving worden kiemvrij gemaakt met een ontsmettingsmiddel op basis van quaternair ammonium of met een alcohol. Nadat de aantasting verwijderd werd, worden fungiciden op het oppervlak gestreken of gesproeid, zowel op het overgebleven en het aangrenzende hout als op het metselwerk. Bij ernstige aantastingen is een dieptebehandeling van het aangetaste materiaal onontbeerlijk. Hierbij worden fungiciden onder druk geïnjecteerd in voorgeboorde gaten. Vaak is ook een dieptebehandeling van het metselwerk nodig om de diep ingedrongen resten van huiszwam te vernietigen. Een behandeling met fungicide werkt zowel curatief als preventief. Een fungicide dat in de handel te verkrijgen is om het hout in te strijken, is enkel doeltreffend wanneer de oorzaak van het vocht weggenomen is en wanneer het om een beginnende zwamaantasting gaat. Enkel fungiciden gebruiken zonder de oorzaak aan te pakken is dus nutteloos."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Fungicide> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Fungicide> <http://www.w3.org/2000/01/rdf-schema#label> "Fungicide"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Fungicide> <http://www.w3.org/2000/01/rdf-schema#label> "Fungicide"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Fungicide> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=12" .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Fungicide> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=13" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-black-yeast
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-black-yeast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-black-yeast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-black-yeast> <http://www.w3.org/2000/01/rdf-schema#comment> "Blauwschimmels verwijderen die enkel een verkleuring aan de oppervlakte veroorzaken, lukt meestal door het hout krachtig te schuren (indien het voorwerp dit toelaat). Omdat deze schimmels vaak ontstaan als gevolg van een microklimaat in of onder een verweerde afwerklaag is regelmatig onderhoud van het houtwerk doorgaans afdoend om ze te voorkomen. Een aangepast preventief product biedt uiteraard nog meer garanties."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-black-yeast> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-black-yeast> <http://www.w3.org/2000/01/rdf-schema#label> "Remove black yeast"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-black-yeast> <http://www.w3.org/2000/01/rdf-schema#label> "Verwijder blauwschimmel"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-black-yeast> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=13" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-surface-mould
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-surface-mould> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-surface-mould> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-surface-mould> <http://www.w3.org/2000/01/rdf-schema#comment> "Oppervlakteschimmels laten zich doorgaans gemakkelijk verwijderen met een licht bevochtigde doek (die u nadien weggooit!). Gaat u tewerk met een stofzuiger, gebruik dan een aangepaste filter die voorkomt dat de sporen weer de ruimte in worden geblazen (een P3-filter of een HEPA-filter). Ontsmet de oppervlakken met een verbinding op basis van quaternair ammonium (quats). Er bestaat een ruime keuze van ontsmettingsmiddelen met quats maar sommige bevatten chemische middelen die best vermeden worden bij het behandelen van cultureel erfgoed. Quats moeten alleszins opgelost worden in water en moeten ook nagespoeld worden. Ze zijn dus niet voor eender welk oppervlak aan te bevelen. Op oppervlakken die bestand zijn tegen ethanol kunt u hiervan eventueel een oplossing van 70% gebruiken om te ontsmetten. Vergeet niet om tegelijk de luchtvochtigheid in de directe omgeving van het aangetaste voorwerp te verminderen, bijvoorbeeld door te zorgen voor voldoende en permanente verluchting"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-surface-mould> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-surface-mould> <http://www.w3.org/2000/01/rdf-schema#label> "Remove surface mould"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-surface-mould> <http://www.w3.org/2000/01/rdf-schema#label> "Verwijder oppervlakteschimmels"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-surface-mould> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=12" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cto#RepairTask> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> <http://www.w3.org/2000/01/rdf-schema#comment> "Als de insecten blijven terugkomen, de oorzaak niet achterhaald kon worden en alle mogelijke preventieve maatregelen uitgevoerd zijn, dan is het tijd om ze te bestrijden, om curatief in te grijpen. In grote ruimten zoals een kerkinterieur beperken aantastingen zich zelden tot een voorwerp of een bouwonderdeel. Een bestrijding moet daarom integraal aangepakt worden. Het heeft geen zin om een beeld te bestrijden en aangetaste kerkstoelen ongemoeid te laten. Beheerders en erfgoedzorgers kunnen zelf heel wat aan bestrijding doen, al blijven professionele methodes soms vereist."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> <http://www.w3.org/2000/01/rdf-schema#label> "Insect beheersing"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> <http://www.w3.org/2000/01/rdf-schema#label> "Insect control"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=33" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Anoxia
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Anoxia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Anoxia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Anoxia> <http://www.w3.org/2000/01/rdf-schema#comment> "Eitjes, larven en insecten sterven af bij een langdurig gebrek aan zuurstof. \r\n\r\nKleine objecten:\r\nU kunt voorwerpen – van textiel of hout – verpakken in een bel van plastic folie, luchtdicht gemaakt met een lastang. Afhankelijk van het volume worden in de zak enkele zuurstofabsorbeerders geplaatst, kleine zakjes met ijzergranulaatkorrels die oxideren en zo zuurstof opnemen. Bij deze exotherme reactie wordt warmte afgegeven. De zakjes mogen dus geen contact hebben met het voorwerp. Een efficiënte behandeling duurt minstens één maand. Controleer het zuurstofgehalte regelmatig in die periode. \r\n\r\nGrote objecten:\r\nBij grotere objecten – zoals beelden of portiekaltaren – maken firma's of restaurateurs gebruik van grotere luchtbellen of tenten waarin de lucht zuurstofarm gemaakt wordt met separatoren die zuurstof en stikstof van elkaar scheiden. Omdat de stikstofconcentratie steeds hoger dan 99 % moet zijn en de bel nooit volledig luchtdicht is, wordt de lucht in de bel voortdurend gespoeld met droge stikstof. Door een\r\noverdruk en ventielen blijft de zuurstofarme lucht in de bel of tent. Het zuurstofgehalte, de luchtvochtigheid en de temperatuur moeten permanent gecontroleerd worden. Zo nodig wordt met bevochtigers gedistilleerd water verneveld of stoom toegevoegd. Ventilatoren voorkomen microklimaten in de bel. Stikstof is een goedkoop en inert gas dat uiterst geschikt is om kunstvoorwerpen te bestrijden. Het succes is afhankelijk van de luchtdichtheid in de bel of tent en van de bestrijdingsduur. Die bedraagt doorgaans 4 weken, maar kan verkort worden bij een hogere temperatuur en een lagere relatieve vochtigheid. Ook mag de bestrijding niet onderbroken worden, wat al eens voorvalt wegens de lichte geluidsoverlast. Bij grote objecten kunnen muren of vloeren vaak een van de wanden vormen van de tent. De aansluiting tussen de tent en de vloer of wand moet echter goed luchtdicht zijn. Ook deze methode vergt heel veel energie."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Anoxia> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Anoxia> <http://www.w3.org/2000/01/rdf-schema#label> "Reduced oxygen method (anoxia)"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Anoxia> <http://www.w3.org/2000/01/rdf-schema#label> "Zuurstofarme methode (anoxie)"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Anoxia> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=33" .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Anoxia> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=40" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_CO2-treatment
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_CO2-treatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_CO2-treatment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_CO2-treatment> <http://www.w3.org/2000/01/rdf-schema#comment> "Bij een bestrijding met CO2 moet de concentratie in de omgevingslucht groter zijn dan 60 %. Ze wordt vooral toegepast in hersluitbare, luchtdichte bellen waarin bijvoorbeeld museale kunstvoorwerpen geplaatst worden. De behandeltijd is onder andere afhankelijk van de temperatuur en bedraagt 3 tot 5 weken bij 20°C. De voorwaarden voor de luchtdichtheid van de bel zijn minder strikt zolang de concentratie maar op 60 % blijft. Omdat CO2 een droog gas is, moet er vaak bevochtigd worden om scheuren in houten voorwerpen te voorkomen."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_CO2-treatment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_CO2-treatment> <http://www.w3.org/2000/01/rdf-schema#label> "CO2 bestrijding"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_CO2-treatment> <http://www.w3.org/2000/01/rdf-schema#label> "CO2 treatment"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_CO2-treatment> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=40" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Freezing
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Freezing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Freezing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Freezing> <http://www.w3.org/2000/01/rdf-schema#comment> "Een relatief eenvoudige, goedkope bestrijding is het vriezen van textiel. De werkwijze is beschreven in de brochure Kerkelijk textiel behouden en bewaren, p. 25."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Freezing> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Freezing> <http://www.w3.org/2000/01/rdf-schema#label> "Bevriezen"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Freezing> <http://www.w3.org/2000/01/rdf-schema#label> "Freezing"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Freezing> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=34" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment> <http://www.w3.org/2000/01/rdf-schema#comment> "Een heteluchtbestrijding kan ook de eitjes en de larven treffen. Hoe hoger de temperatuur, hoe sneller er sterfte optreedt. De meeste uitvoerders warmen het object geleidelijk op tot 48-55°C, houden die temperatuur 24 uur lang aan, en koelen het daarna weer geleidelijk af. Sensoren in houten blokken met dezelfde sectie als de aangetaste objecten, helpen het opwarmingsproces te controleren. Ook het vochtgehalte moet de hele tijd op peil gehouden worden, anders kan er schade ontstaan aan de materialen. Dat kan door de voorwerpen vacuüm te verpakken of door vocht toe te voegen tijdens het verwarmen. Dat blijkt voor veel uitvoerders een probleem. Indien correct toegepast, is deze methode geschikt om aantastingen in onbeschilderd en ongevernist hout te bestrijden zoals balken van een dakstructuur, maar niet voor voorwerpen met verlijmingen. Om warmteverlies te voorkomen, kan het nuttig zijn om extra isolatie aan te brengen en openingen dicht te maken. Heteluchtbestrijding kan op verschillende manieren uitgevoerd worden. Wij beperken ons tot de meest courante:\r\n- mobiele heteluchtbestrijding\r\n- warmtekamer"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment> <http://www.w3.org/2000/01/rdf-schema#label> "Heteluchtbestrijding"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment> <http://www.w3.org/2000/01/rdf-schema#label> "Hot air treatment"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=37" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Heating-room
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Heating-room> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Heating-room> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Heating-room> <http://www.w3.org/2000/01/rdf-schema#comment> "Een warmtekamer is vooral geschikt om aantastingen in kunstvoorwerpen uit organisch materiaal te bestrijden. De voorwerpen worden in een geïsoleerde ruimte geplaatst, waarin de temperatuur langzaam wordt opgedreven en de relatieve vochtigheid onder controle blijft. In het depot van het Openluchtmuseum van Bokrijk worden onbeschilderde houten voorwerpen (zoals karren, kasten) op deze manier behandeld tegen houtboorders. Er bestaan ook mobiele kamers of containers, gemonteerd op een vrachtwagen."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Heating-room> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Heating-room> <http://www.w3.org/2000/01/rdf-schema#label> "Heating room"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Heating-room> <http://www.w3.org/2000/01/rdf-schema#label> "Warmtekamer"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Heating-room> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=37" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Mobile
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Mobile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Mobile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Mobile> <http://www.w3.org/2000/01/rdf-schema#comment> "Mobiele heteluchtbestrijding is vooral geschikt voor timmerwerk, constructiehout en molens. Met generatoren op propaangas wordt ter plaatse warme lucht geproduceerd die in een ruimte of een tent wordt geblazen. Bij de verbranding van het propaangas ontstaat een enorme waterdampproductie die kan neerslaan of condenseren op koudere voorwerpen. Ook kan er een verwarmingstoestel buiten het gebouw geplaatst worden waarbij, ofwel flexibele warmeluchtkanalen tot op de te behandelen plaats geleid worden, ofwel warme vloeistof getransporteerd wordt naar uitblaasopeningen in die ruimte. Isoleer de ruimte extra en verkies een warme periode voor deze methode: de energiekosten kunnen immers hoog oplopen!"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Mobile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Mobile> <http://www.w3.org/2000/01/rdf-schema#label> "Mobiele heteluchtbestrijding"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Mobile> <http://www.w3.org/2000/01/rdf-schema#label> "Mobile hot air treatment"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Mobile> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=37" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Solvent-based
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Solvent-based> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Solvent-based> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-insecticide> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Solvent-based> <http://www.w3.org/2000/01/rdf-schema#comment> "Er bestaan watergedragen en solventgedragen insecticiden. De watergedragen middelen zijn veiliger in gebruik, maar kunnen het hout flink doen zwellen en vervormen, met een reëel risico op schade. De solventgedragen middelen, die meestal in white spirit zijn opgelost, zijn minder veilig, maar hebben een betere penetratie en veroorzaken minder zwelling."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Solvent-based> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Solvent-based> <http://www.w3.org/2000/01/rdf-schema#label> "Water-based liquid insecticide"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Solvent-based> <http://www.w3.org/2000/01/rdf-schema#label> "Watergedragen insecticiden"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Solvent-based> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=34" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Water-based
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Water-based> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Water-based> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-insecticide> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Water-based> <http://www.w3.org/2000/01/rdf-schema#comment> "Er bestaan watergedragen en solventgedragen insecticiden. De watergedragen middelen zijn veiliger in gebruik, maar kunnen het hout flink doen zwellen en vervormen, met een reëel risico op schade. De solventgedragen middelen, die meestal in white spirit zijn opgelost, zijn minder veilig, maar hebben een betere penetratie en veroorzaken minder zwelling."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Water-based> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Water-based> <http://www.w3.org/2000/01/rdf-schema#label> "Water-based liquid insecticide"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Water-based> <http://www.w3.org/2000/01/rdf-schema#label> "Watergedragen insecticiden"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Water-based> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=34" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-insecticide
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-insecticide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-insecticide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-insecticide> <http://www.w3.org/2000/01/rdf-schema#comment> "Bij deze – meest gebruikte – methode komen de volwassen kevers aan het eind van de cyclus of bij het uitvliegen in contact met gif. Het insecticide wordt meestal met een borstel of kwast aangebracht en dringt hooguit enkele millimeters in het hout. Er bestaan ook kleine busjes waaraan een darmpje bevestigd is met een ventiel waarmee de uitvliegopeningen gevuld worden. Tegen kleine klopkevers werkt deze bestrijding goed omdat ze bij het uitvliegen vaak een opening knagen en dus contact maken met hout. Ze is ook effectief tegen huisboktorren omdat hun larven vaak tot dicht tegen het houtoppervlak knagen en de kevers ook een opening maken. Tegen grote klopkevers is ze weinig effectief: zowel bij het leggen van de eitjes als bij het uitvliegen maken ze zelden contact met het houtoppervlak. Het is een misvatting dat houtaantasters gaatjes knagen om hun eitjes in te leggen of zelfs hun eitjes leggen op het hout. Uit recent onderzoek blijkt dat ze vaak langs kieren of bestaande gaatjes naar binnen kruipen of een legboor gebruiken om eitjes te leggen. Daarom is oppervlaktebestrijding niet altijd even zinvol als preventieve bestrijding.\r\n\r\nU kunt zelf bestrijden met insecticiden bij:\r\n- eenvoudige houten voorwerpen die niet beschilderd of gevernist zijn;\r\n- voorwerpen met een beperkte sectie zoals plankenvloeren of kastwanden; \r\n- een zeer lokale aantasting;\r\n- vaste onderdelen die moeilijk los te behandelen zijn;\r\n\r\nZorg voor voldoende zelfbescherming volgens de richtlijnen van de fabrikant van het insecticide. Tegenwoordig worden voornamelijk synthetische pyrethroïden (deltamethrine, cypermethrine en permethrine) gebruikt, die het minst schadelijk zijn voor de mens. Ze zijn te verkrijgen in doe-het-zelfzaken en bevatten doorgaans iets lagere concentraties dan de professionele versies. De werking van de insecticiden wordt op 10 jaar geschat. \r\n\r\nVloeibare insecticiden en injectiebehandelingen (professionelen): \r\n- Kleine klopkever: Veel firma's bieden voor de bestrijding van aantastingen in timmerwerk nog heel vaak vloeibare insecticiden aan, die rechtstreeks op het hout gesproeid worden. Vandaar de term oppervlaktebestrijding. Ook de onbeschilderde delen van grote portiekaltaren worden dikwijls ingestreken met insecticide. Voor geverniste of beschilderde oppervlakken of kunstvoorwerpen zijn insecticiden absoluut af te raden. Ze zullen weinig effect hebben omdat ze alleen langs de gaatjes naar binnen kunnen dringen. Erger is dat de verflagen beschadigd kunnen raken door de solventen in de insecticidenoplossing en dat het hout gaat zwellen, met schade als gevolg.\r\n- grote klopkever: Bij een ernstige aantasting zal een oppervlaktebehandeling alleen niet volstaan. Bij een injectiebehandeling dringt het insecticide dieper in het hout. De balken worden geperforeerd, waarna er injectiepluggen ingebracht worden waarlangs het insecticide onder druk ingespoten wordt. Langs de bestaande vraatgangen kan het middel zich iets verder verspreiden. Bij gezond eikenhout verspreidt het zich onvoldoende of raakt het hout slechts plaatselijk verzadigd. Omdat de balken mechanisch beschadigd worden door de perforaties, mag er alleen zeer plaatselijk geïnjecteerd worden, bijvoorbeeld nadat de aantasting met detectiepapier zorgvuldig in kaart gebracht werd. Een oppervlaktebestrijding als aanvulling op een injectiebehandeling is alleen aan te raden als het echt nodig is. Ook de natuurlijke vijanden worden immers gedood, die de populatie mee helpen beperken en een biologisch evenwicht in de hand kunnen werken. Beschermde diersoorten zoals vleermuizen en uilen, blijven evenmin gespaard. Neem de nodige voorzorgsmaatregelen!"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-insecticide> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-insecticide> <http://www.w3.org/2000/01/rdf-schema#label> "Liquid insecticide"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-insecticide> <http://www.w3.org/2000/01/rdf-schema#label> "Vloeibare insecticiden"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-insecticide> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=34" .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-insecticide> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=36" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Microwave-heating
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Microwave-heating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Microwave-heating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Microwave-heating> <http://www.w3.org/2000/01/rdf-schema#comment> "Dergelijke methoden steunen op het principe dat watermoleculen in zowel hout als larven zo snel gaan bewegen dat ze opwarmen. Omdat larven meer vocht bevatten dan hout, warmen ze meer op. Droog hout wordt minder opgewarmd dan nat hout. Niet zozeer de houttemperatuur is van belang, wel de temperatuur van de larven, maar die kan niet gemeten worden. Het is uiteraard onmogelijk om alleen de larven op te warmen. Bestrijdingsmethoden met mobiele toestellen worden meer en meer toegepast, en sinds kort zijn ze ook in Vlaanderen commercieel beschikbaar. De ongecontroleerde opwarming en een gelijkmatige warmteverdeling blijven de grootste hinderpalen. De warmte ontwikkelt zich zeer snel en niet lineair. Uitvoerders beweren dat de magnetrons stapsgewijs in te stellen zijn naar een steeds hoger vermogen. Tijdens de bestrijding zijn de oppervlaktetemperaturen te controleren met een infraroodcamera, maar eigenlijk zouden de temperaturen in de kern gemeten moeten worden. Net zoals bij de huishoudmagnetron moeten metalen voorwerpen vermeden worden. Het is aanbevolen om tegelijkertijd met meerdere magnetrons en zelfs met isolatiemateriaal te"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Microwave-heating> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Microwave-heating> <http://www.w3.org/2000/01/rdf-schema#label> "Microwave heating"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Microwave-heating> <http://www.w3.org/2000/01/rdf-schema#label> "Verhitting door microgolven"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Microwave-heating> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=38" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent> <http://www.w3.org/2000/01/rdf-schema#comment> "Motwerende middelen zijn meestal te verkrijgen in de supermarkt. Ze worden zowel curatief als preventief gebruikt, hoewel ze geen dodelijke werking hebben. Ze proberen insecten af te schrikken of te verdrijven. Voorbeelden zijn:\r\n- Mottenpapier\r\n- Mottencassettes\r\n- Mottenballen\r\n- Cederhout"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent> <http://www.w3.org/2000/01/rdf-schema#label> "Moth repellent"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent> <http://www.w3.org/2000/01/rdf-schema#label> "Motwerende middelen"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=35" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Cedarwood
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Cedarwood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Cedarwood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Cedarwood> <http://www.w3.org/2000/01/rdf-schema#comment> "Cederblokjes kunnen helpen om insecten te weren, maar niet om ze te doden. De oliën waarmee het cederhout geïmpregneerd wordt, zullen insecten alleen afschrikken en verdrijven. Leg de blokjes nooit op het textiel zelf, want de olie kan vlekken nalaten. Besprenkel ze opnieuw met olie als de geur verdwenen is."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Cedarwood> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Cedarwood> <http://www.w3.org/2000/01/rdf-schema#label> "Cedarwood"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Cedarwood> <http://www.w3.org/2000/01/rdf-schema#label> "Cederhout"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Cedarwood> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=35" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-cassettes
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-cassettes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-cassettes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-cassettes> <http://www.w3.org/2000/01/rdf-schema#comment> "Hierbij wordt dichloorvos gebruikt, dat schadelijk is voor de mens; bovendien kunnen de dampen materialen beschadigen."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-cassettes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-cassettes> <http://www.w3.org/2000/01/rdf-schema#label> "Moth cassettes"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-cassettes> <http://www.w3.org/2000/01/rdf-schema#label> "Mottencassettes"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-cassettes> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=35" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-paper
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-paper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-paper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-paper> <http://www.w3.org/2000/01/rdf-schema#comment> "Dit papier is vaak geïmpregneerd met het giftige chloorpyrifos. Alleen bij contact en in een gesloten omgeving gaan de insecten dood. Sacristiekasten zijn doorgaans niet hermetisch afgesloten en dus is mottenpapier er niet echt zinvol."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-paper> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-paper> <http://www.w3.org/2000/01/rdf-schema#label> "Moth paper"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-paper> <http://www.w3.org/2000/01/rdf-schema#label> "Mottenpapier"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-paper> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=35" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Mothballs
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Mothballs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Mothballs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Mothballs> <http://www.w3.org/2000/01/rdf-schema#comment> "De mottenballen op basis van naftaleen raken stilaan in onbruik. Ze zijn schadelijk voor de mens en hun doeltreffendheid is erg twijfelachtig, tenzij bij zeer hoge concentraties. Geurballen op basis van paradichloorbenzeen zijn eveneens af te raden: ze zijn schadelijk voor de mens en hebben ongewenste effecten op de collectie."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Mothballs> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Mothballs> <http://www.w3.org/2000/01/rdf-schema#label> "Mothballs"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Mothballs> <http://www.w3.org/2000/01/rdf-schema#label> "Mottenballen"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Mothballs> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=35" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Sprayed-insecticide
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Sprayed-insecticide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Sprayed-insecticide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Sprayed-insecticide> <http://www.w3.org/2000/01/rdf-schema#comment> "De meeste spuitbussen tegen zowel kruipende als vliegende insecten bevatten permethrine, maar ook dichloorvos en chloorpyrifos. Ook bevatten ze dikwijls een pyrethrum of een mengsel van pyrethrinen gewonnen uit chrysanten. Laat u niet misleiden door hun label 'natuurlijk' of 'ecologisch product'. Het mengsel bevat doorgaans ook emulgatoren, harsen en andere producten. Spuit nooit op het object zelf, maar op een wit blaadje papier om te zien hoe het middel opdroogt en wat er achterblijft. Spuitbussen met een leegloopventiel zijn alleen werkzaam in een ruimte of kamer die voldoende afgesloten kan worden. Uiteraard kan niemand in de kamer blijven. Besproei de plaatsen waar vliegende insecten – zoals klustervliegen – samendrommen, met een insecticide met permethrine. Ruim dode exemplaren meteen op, want ze trekken andere insecten aan."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Sprayed-insecticide> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Sprayed-insecticide> <http://www.w3.org/2000/01/rdf-schema#label> "Sprayed insecticide"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Sprayed-insecticide> <http://www.w3.org/2000/01/rdf-schema#label> "Spuitbussen insecticiden"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Sprayed-insecticide> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=35" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Toxic-gas
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Toxic-gas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Toxic-gas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Toxic-gas> <http://www.w3.org/2000/01/rdf-schema#comment> "Er bestaan tal van gassen om zowel voorwerpen in containers als hele gebouwen te behandelen. Tot voor kort was methylbromide een van de meest courante, maar sinds 2005 is dit gas verboden omdat het de ozonlaag aantast. Intussen hebben enkele Belgische firma's een erkenning om te werken met een vervanger, sulfurylfluoride (SF of Vikane©). Dit is een zeer giftig gas dat goed in het hout dringt en zowel larven en poppen als volwassen kevers doodt, maar niet de eitjes. Om die te doden moet de dosering verhogen of de blootstellingstijd verlengen. SF mag alleen gebruikt worden in een gasdicht afgesloten ruimte zoals een container. Een probleem dus voor monumentale gebouwen, omdat er op historische zolders of kapruimten met ongeïsoleerde dakvlakken steeds een natuurlijke ventilatie heerst. Een oplossing is het hele gebouw in te pakken in een gasdichte folie, of alle ramen, deuren, ventilatiespleten en andere openingen af te dichten met een speciale tape of zelfs polyurethaanschuim dat wel moeilijk te verwijderen is. In Nederland werd SF voor de bestrijding van rouwborden onlangs negatief geadviseerd omdat het veel materialen en pigmenten kan corroderen of beschadigen."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Toxic-gas> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Toxic-gas> <http://www.w3.org/2000/01/rdf-schema#label> "Giftige gassen"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Toxic-gas> <http://www.w3.org/2000/01/rdf-schema#label> "Taxic gass"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Toxic-gas> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=40" .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Toxic-gas> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=41" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cto#RepairTask> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention> <http://www.w3.org/2000/01/rdf-schema#comment> "De moderne erfgoedzorg streeft ernaar originele delen maximaal te behouden. Bij bouwkundige onderdelen wordt daarom liefst niet méér dan de aangetaste delen verwijderd. Die kunnen vervangen worden door nieuwe houten inzetstukken (die preventief beschermd werden) of er kan een prothese gemaakt worden met een epoxyharsmortel."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention> <http://www.w3.org/2000/01/rdf-schema#label> "Preventie van aantasting door insecten en zwammen"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention> <http://www.w3.org/2000/01/rdf-schema#label> "Prevention of deterioration by insects and fungi"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=26" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Address-moisture-problems
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Address-moisture-problems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Address-moisture-problems> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Address-moisture-problems> <http://www.w3.org/2000/01/rdf-schema#comment> "Vochtinfiltratie, een te hoge relatieve vochtigheid en gebrek aan verluchting werken in de eerste plaats zwamaantastingen in de hand. Voor de grote klopkever en andere houtboorders is door schimmels verzwakt hout echter extra aantrekkelijk. Reinig en herstel daarom tijdig goten, afvoerbuizen, dakbedekking, voegwerk en lekkende kranen. Neem maatregelen tegen optrekkend vocht. In de meeste gebouwen is het niet eenvoudig om invloed uit te oefenen op de relatieve vochtigheid. Als die hoog is (75% en méér), maken zwamaantastingen meer kans, ook omdat er meer condensatievocht kan ontstaan op koude oppervlakken. Vermijd het alleszins om vocht toe te voegen aan de omgeving, door bijvoorbeeld te poetsen met weinig of geen water. In een vochtige omgeving is het extra belangrijk om regelmatig goed te verluchten. Zwammen en schimmels houden immers niet van tocht. Neem maatregelen om plaatselijke, vochtige microklimaten te voorkomen. Breng verluchtingsgaatjes aan in de plinten voor houten vloertjes. Voorzie een buffer bij voorwerpen die tegen een vochtige muur of koud materiaal (gevaar voor condensatie) rusten. Denk maar aan een schilderij tegen een muur of een houten beeld op een stenen console"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Address-moisture-problems> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Address-moisture-problems> <http://www.w3.org/2000/01/rdf-schema#label> "Address moisture problems"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Address-moisture-problems> <http://www.w3.org/2000/01/rdf-schema#label> "Los vochtproblemen op"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Address-moisture-problems> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=26" .
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Avoid-dirt-accumulation
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Avoid-dirt-accumulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Avoid-dirt-accumulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Avoid-dirt-accumulation> <http://www.w3.org/2000/01/rdf-schema#comment> "Een stofvrije omgeving vermindert de kans op alle biologische aantastingen. Stof houdt immers vocht vast. Het belet bovendien een goede controle op aantastingen. In het bijzonder oppervlakteschimmels hebben vaak niet veel meer dan een stoflaagje nodig om zich te manifesteren. Vuilophoping – bijvoorbeeld aan gewelfaanzetten of tussen lambriseringen en de muur – verhindert een goede ventilatie en werkt als een soort spons die vocht opslorpt, vasthoudt en in contact brengt met het hout."@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Avoid-dirt-accumulation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Avoid-dirt-accumulation> <http://www.w3.org/2000/01/rdf-schema#label> "Avoid dirt accumulation"@en .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Avoid-dirt-accumulation> <http://www.w3.org/2000/01/rdf-schema#label> "Vermijd stof- en vuilophoping"@nl .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Avoid-dirt-accumulation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=26" .
+# 
+# https://w3id.org/cto#RepairTask
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/resource/Katholieke_Universiteit_Leuven
+# 
+# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
