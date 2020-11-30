@@ -2,11 +2,11 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "nl", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.org/vocommons/voaf", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen", "http://www.w3.org/2006/vcard/ns", "https://w3id.org/cto" ],
+    "baseIris" : [ "https://w3id.org/con-tax/tasks/mwv", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.org/vocommons/voaf", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/2006/vcard/ns", "https://w3id.org/cto" ],
     "title" : {
-      "en" : "Monumentenwacht Vlaanderen Tasks Ontology"
+      "en" : "MWV Tasks (MWV-T) Ontology"
     },
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+    "iri" : "https://w3id.org/con-tax/tasks/mwv",
     "version" : "0.0.1",
     "author" : [ "_:genid2147483648" ],
     "comments" : {
@@ -28,19 +28,13 @@
       "decription" : [ {
         "identifier" : "decription",
         "language" : "en",
-        "value" : "The Monumentenwacht Vlaanderen Tasks ontology is manually created based on existing PDF reports of Monumentenwacht regarding damage inspections. In its current state, it contains preventive and curative repair tasks regarding timber damage [1] and damage caused by insects [2]. It is defined as an extension of the generic Construction Tasks Ontology (CTO, available at https://w3id.org/cto#).\r\n[1] Schoeters, E., Heerwegh, L., and van Laar, B. (2005). Biologische aantastingen in hout. Retrieved from https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf\r\n[2] Deknopper, A. (2010). Dieren in en op Gebouwen: Insecten. Retrieved from https://www.monumentenwacht.be/files/brochure_insecten.pdf",
+        "value" : "The MWV Tasks (MWV-T) ontology is manually created based on existing PDF reports of Monumentenwacht regarding damage inspections. In its current state, it contains preventive and curative repair tasks regarding timber damage [1] and damage caused by insects [2]. It is defined as an extension of the generic Construction Tasks Ontology (CTO, available at https://w3id.org/cto#).\r\n[1] Schoeters, E., Heerwegh, L., and van Laar, B. (2005). Biologische aantastingen in hout. Retrieved from https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf\r\n[2] Deknopper, A. (2010). Dieren in en op Gebouwen: Insecten. Retrieved from https://www.monumentenwacht.be/files/brochure_insecten.pdf",
         "type" : "label"
       } ],
       "preferredNamespacePrefix" : [ {
         "identifier" : "preferredNamespacePrefix",
         "language" : "undefined",
-        "value" : "mw-t",
-        "type" : "label"
-      } ],
-      "preferredNamespaceUri" : [ {
-        "identifier" : "preferredNamespaceUri",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#",
+        "value" : "mwv-t",
         "type" : "label"
       } ],
       "versionInfo" : [ {
@@ -49,16 +43,22 @@
         "value" : "0.0.1",
         "type" : "label"
       } ],
-      "issued" : [ {
-        "identifier" : "issued",
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
         "language" : "undefined",
-        "value" : "2020-11-29",
+        "value" : "https://w3id.org/con-tax/tasks/mwv#",
         "type" : "label"
       } ],
       "title" : [ {
         "identifier" : "title",
         "language" : "en",
-        "value" : "Monumentenwacht Vlaanderen Tasks Ontology",
+        "value" : "MWV Tasks (MWV-T) Ontology",
+        "type" : "label"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2020-11-29",
         "type" : "label"
       } ]
     }
@@ -68,49 +68,76 @@
     "id" : "0",
     "type" : "owl:Class"
   }, {
-    "id" : "1",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "6",
+    "id" : "3",
     "type" : "owl:Class"
   }, {
-    "id" : "7",
-    "type" : "owl:Class"
-  }, {
-    "id" : "4",
+    "id" : "9",
     "type" : "owl:Class"
   }, {
     "id" : "11",
     "type" : "owl:Class"
   }, {
-    "id" : "15",
-    "type" : "owl:Class"
-  }, {
-    "id" : "19",
-    "type" : "owl:Class"
-  }, {
-    "id" : "26",
-    "type" : "owl:Class"
-  }, {
-    "id" : "14",
-    "type" : "owl:Class"
-  }, {
-    "id" : "31",
-    "type" : "owl:Class"
-  }, {
-    "id" : "32",
+    "id" : "20",
     "type" : "owl:Class"
   }, {
     "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "48",
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
     "type" : "owl:Class"
   }, {
     "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "24",
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
     "type" : "owl:Class"
   }, {
     "id" : "10",
@@ -119,305 +146,33 @@
     "id" : "28",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "12",
+    "id" : "25",
     "type" : "owl:Class"
   }, {
-    "id" : "36",
-    "type" : "owl:Class"
-  }, {
-    "id" : "40",
-    "type" : "owl:Class"
-  }, {
-    "id" : "47",
-    "type" : "owl:Class"
-  }, {
-    "id" : "45",
-    "type" : "owl:Class"
-  }, {
-    "id" : "51",
-    "type" : "owl:Class"
-  }, {
-    "id" : "3",
+    "id" : "6",
     "type" : "owl:Class"
   }, {
     "id" : "41",
     "type" : "owl:Class"
   }, {
-    "id" : "38",
-    "type" : "owl:Class"
-  }, {
-    "id" : "9",
-    "type" : "owl:Class"
-  }, {
-    "id" : "33",
+    "id" : "24",
     "type" : "owl:Class"
   }, {
     "id" : "8",
     "type" : "owl:Class"
-  }, {
-    "id" : "30",
-    "type" : "owl:Class"
-  }, {
-    "id" : "22",
-    "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Address-moisture-problems",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Sprayed-insecticide",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=12",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Fungi-control_Address-moisture-problems",
-      "en" : "Address moisture problems",
-      "nl" : "Los vochtproblemen op"
-    },
-    "comment" : {
-      "nl" : "Door vocht weg te nemen – één van de grootste basisvoorwaarden – kan de verdere groei van een zwam stopgezet worden. De zwam zal dan in een rustperiode komen en uiteindelijk afsterven, met uitzondering van de huiszwam. Vergeet niet alle mogelijke oorzaken van vochtproblemen na te gaan: optrekkend grondwater, doorslaande regen, gebrekkige verluchting, condensatie, lekken in leidingen of in het dak, verstopte dakgoten… Zouten die vaak in muren zitten, verergeren het probleem omdat ze vocht aantrekken en vasthouden. Pas wanneer de exacte oorzaak bekend is, kunnen er gepaste maatregelen getroffen worden opdat de getroffen ruimte goed kan uitdrogen. Nadat de oorzaak van het vochtprobleem is weggenomen, kan extra ventilatie of in geval van extreme vochtigheid een tijdelijke verwarming, het uitdrogen versnellen. Let in beide gevallen op voor condensatie op koude constructies want dat kan een bijkomend vochtprobleem veroorzaken. Bij tijdelijke verwarming bestaat het risico dat het hout krimpt, kromtrekt of zelfs scheurt. Een gecontroleerde uitdroging, bij voorkeur door ventilatie, is dus aan te raden. Voorts helpt het ook om de besmette ruimte stofvrij te houden en vuilophoping te vermijden."
-    },
-    "id" : "0",
-    "superClasses" : [ "1" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=12",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Fungi-control",
-      "en" : "Fungi control",
-      "nl" : "Bestrijding van zwammen"
-    },
-    "subClasses" : [ "3", "4", "5", "0" ],
-    "comment" : {
-      "nl" : "U kunt best zelf een aantal maatregelen treffen om de groei van een zwam af te remmen of te stoppen. Vaak zijn dat kleine dingen die erger kunnen voorkomen in afwachting van de komst van een specialist. Zwamaantastingen zijn al gauw te groot om eigenhandig te verwijderen. Doe daarom tijdig een beroep op specialisten. De bestrijding zal afhangen van het type zwam dat wordt vastgesteld."
-    },
-    "id" : "1",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.w3.org/2006/vcard/ns#Organization",
-    "baseIri" : "http://www.w3.org/2006/vcard/ns",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Organization"
-    },
-    "attributes" : [ "external" ],
-    "id" : "6"
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-insecticide",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=34",
-        "type" : "label"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=36",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Insect-control_Liquid-insecticide",
-      "en" : "Liquid insecticide",
-      "nl" : "Vloeibare insecticiden"
-    },
-    "subClasses" : [ "9", "10" ],
-    "comment" : {
-      "nl" : "Bij deze – meest gebruikte – methode komen de volwassen kevers aan het eind van de cyclus of bij het uitvliegen in contact met gif. Het insecticide wordt meestal met een borstel of kwast aangebracht en dringt hooguit enkele millimeters in het hout. Er bestaan ook kleine busjes waaraan een darmpje bevestigd is met een ventiel waarmee de uitvliegopeningen gevuld worden. Tegen kleine klopkevers werkt deze bestrijding goed omdat ze bij het uitvliegen vaak een opening knagen en dus contact maken met hout. Ze is ook effectief tegen huisboktorren omdat hun larven vaak tot dicht tegen het houtoppervlak knagen en de kevers ook een opening maken. Tegen grote klopkevers is ze weinig effectief: zowel bij het leggen van de eitjes als bij het uitvliegen maken ze zelden contact met het houtoppervlak. Het is een misvatting dat houtaantasters gaatjes knagen om hun eitjes in te leggen of zelfs hun eitjes leggen op het hout. Uit recent onderzoek blijkt dat ze vaak langs kieren of bestaande gaatjes naar binnen kruipen of een legboor gebruiken om eitjes te leggen. Daarom is oppervlaktebestrijding niet altijd even zinvol als preventieve bestrijding.\r\n\r\nU kunt zelf bestrijden met insecticiden bij:\r\n- eenvoudige houten voorwerpen die niet beschilderd of gevernist zijn;\r\n- voorwerpen met een beperkte sectie zoals plankenvloeren of kastwanden; \r\n- een zeer lokale aantasting;\r\n- vaste onderdelen die moeilijk los te behandelen zijn;\r\n\r\nZorg voor voldoende zelfbescherming volgens de richtlijnen van de fabrikant van het insecticide. Tegenwoordig worden voornamelijk synthetische pyrethroïden (deltamethrine, cypermethrine en permethrine) gebruikt, die het minst schadelijk zijn voor de mens. Ze zijn te verkrijgen in doe-het-zelfzaken en bevatten doorgaans iets lagere concentraties dan de professionele versies. De werking van de insecticiden wordt op 10 jaar geschat. \r\n\r\nVloeibare insecticiden en injectiebehandelingen (professionelen): \r\n- Kleine klopkever: Veel firma's bieden voor de bestrijding van aantastingen in timmerwerk nog heel vaak vloeibare insecticiden aan, die rechtstreeks op het hout gesproeid worden. Vandaar de term oppervlaktebestrijding. Ook de onbeschilderde delen van grote portiekaltaren worden dikwijls ingestreken met insecticide. Voor geverniste of beschilderde oppervlakken of kunstvoorwerpen zijn insecticiden absoluut af te raden. Ze zullen weinig effect hebben omdat ze alleen langs de gaatjes naar binnen kunnen dringen. Erger is dat de verflagen beschadigd kunnen raken door de solventen in de insecticidenoplossing en dat het hout gaat zwellen, met schade als gevolg.\r\n- grote klopkever: Bij een ernstige aantasting zal een oppervlaktebehandeling alleen niet volstaan. Bij een injectiebehandeling dringt het insecticide dieper in het hout. De balken worden geperforeerd, waarna er injectiepluggen ingebracht worden waarlangs het insecticide onder druk ingespoten wordt. Langs de bestaande vraatgangen kan het middel zich iets verder verspreiden. Bij gezond eikenhout verspreidt het zich onvoldoende of raakt het hout slechts plaatselijk verzadigd. Omdat de balken mechanisch beschadigd worden door de perforaties, mag er alleen zeer plaatselijk geïnjecteerd worden, bijvoorbeeld nadat de aantasting met detectiepapier zorgvuldig in kaart gebracht werd. Een oppervlaktebestrijding als aanvulling op een injectiebehandeling is alleen aan te raden als het echt nodig is. Ook de natuurlijke vijanden worden immers gedood, die de populatie mee helpen beperken en een biologisch evenwicht in de hand kunnen werken. Beschermde diersoorten zoals vleermuizen en uilen, blijven evenmin gespaard. Neem de nodige voorzorgsmaatregelen!"
-    },
-    "id" : "7",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-surface-mould",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=12",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Fungi-control_Remove-surface-mould",
-      "en" : "Remove surface mould",
-      "nl" : "Verwijder oppervlakteschimmels"
-    },
-    "comment" : {
-      "nl" : "Oppervlakteschimmels laten zich doorgaans gemakkelijk verwijderen met een licht bevochtigde doek (die u nadien weggooit!). Gaat u tewerk met een stofzuiger, gebruik dan een aangepaste filter die voorkomt dat de sporen weer de ruimte in worden geblazen (een P3-filter of een HEPA-filter). Ontsmet de oppervlakken met een verbinding op basis van quaternair ammonium (quats). Er bestaat een ruime keuze van ontsmettingsmiddelen met quats maar sommige bevatten chemische middelen die best vermeden worden bij het behandelen van cultureel erfgoed. Quats moeten alleszins opgelost worden in water en moeten ook nagespoeld worden. Ze zijn dus niet voor eender welk oppervlak aan te bevelen. Op oppervlakken die bestand zijn tegen ethanol kunt u hiervan eventueel een oplossing van 70% gebruiken om te ontsmetten. Vergeet niet om tegelijk de luchtvochtigheid in de directe omgeving van het aangetaste voorwerp te verminderen, bijvoorbeeld door te zorgen voor voldoende en permanente verluchting"
-    },
-    "id" : "4",
-    "superClasses" : [ "1" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-cassettes",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=35",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Insect-control_Moth-repellent_Moth-cassettes",
-      "en" : "Moth cassettes",
-      "nl" : "Mottencassettes"
-    },
-    "comment" : {
-      "nl" : "Hierbij wordt dichloorvos gebruikt, dat schadelijk is voor de mens; bovendien kunnen de dampen materialen beschadigen."
-    },
-    "id" : "11",
-    "superClasses" : [ "12" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Moth-paper",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=35",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Insect-control_Moth-repellent_Moth-paper",
-      "en" : "Moth paper",
-      "nl" : "Mottenpapier"
-    },
-    "comment" : {
-      "nl" : "Dit papier is vaak geïmpregneerd met het giftige chloorpyrifos. Alleen bij contact en in een gesloten omgeving gaan de insecten dood. Sacristiekasten zijn doorgaans niet hermetisch afgesloten en dus is mottenpapier er niet echt zinvol."
-    },
-    "id" : "15",
-    "superClasses" : [ "12" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Anoxia",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=33",
-        "type" : "label"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=40",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Insect-control_Anoxia",
-      "en" : "Reduced oxygen method (anoxia)",
-      "nl" : "Zuurstofarme methode (anoxie)"
-    },
-    "comment" : {
-      "nl" : "Eitjes, larven en insecten sterven af bij een langdurig gebrek aan zuurstof. \r\n\r\nKleine objecten:\r\nU kunt voorwerpen – van textiel of hout – verpakken in een bel van plastic folie, luchtdicht gemaakt met een lastang. Afhankelijk van het volume worden in de zak enkele zuurstofabsorbeerders geplaatst, kleine zakjes met ijzergranulaatkorrels die oxideren en zo zuurstof opnemen. Bij deze exotherme reactie wordt warmte afgegeven. De zakjes mogen dus geen contact hebben met het voorwerp. Een efficiënte behandeling duurt minstens één maand. Controleer het zuurstofgehalte regelmatig in die periode. \r\n\r\nGrote objecten:\r\nBij grotere objecten – zoals beelden of portiekaltaren – maken firma's of restaurateurs gebruik van grotere luchtbellen of tenten waarin de lucht zuurstofarm gemaakt wordt met separatoren die zuurstof en stikstof van elkaar scheiden. Omdat de stikstofconcentratie steeds hoger dan 99 % moet zijn en de bel nooit volledig luchtdicht is, wordt de lucht in de bel voortdurend gespoeld met droge stikstof. Door een\r\noverdruk en ventielen blijft de zuurstofarme lucht in de bel of tent. Het zuurstofgehalte, de luchtvochtigheid en de temperatuur moeten permanent gecontroleerd worden. Zo nodig wordt met bevochtigers gedistilleerd water verneveld of stoom toegevoegd. Ventilatoren voorkomen microklimaten in de bel. Stikstof is een goedkoop en inert gas dat uiterst geschikt is om kunstvoorwerpen te bestrijden. Het succes is afhankelijk van de luchtdichtheid in de bel of tent en van de bestrijdingsduur. Die bedraagt doorgaans 4 weken, maar kan verkort worden bij een hogere temperatuur en een lagere relatieve vochtigheid. Ook mag de bestrijding niet onderbroken worden, wat al eens voorvalt wegens de lichte geluidsoverlast. Bij grote objecten kunnen muren of vloeren vaak een van de wanden vormen van de tent. De aansluiting tussen de tent en de vloer of wand moet echter goed luchtdicht zijn. Ook deze methode vergt heel veel energie."
-    },
-    "id" : "19",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Microwave-heating",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=38",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Insect-control_Microwave-heating",
-      "en" : "Microwave heating",
-      "nl" : "Verhitting door microgolven"
-    },
-    "comment" : {
-      "nl" : "Dergelijke methoden steunen op het principe dat watermoleculen in zowel hout als larven zo snel gaan bewegen dat ze opwarmen. Omdat larven meer vocht bevatten dan hout, warmen ze meer op. Droog hout wordt minder opgewarmd dan nat hout. Niet zozeer de houttemperatuur is van belang, wel de temperatuur van de larven, maar die kan niet gemeten worden. Het is uiteraard onmogelijk om alleen de larven op te warmen. Bestrijdingsmethoden met mobiele toestellen worden meer en meer toegepast, en sinds kort zijn ze ook in Vlaanderen commercieel beschikbaar. De ongecontroleerde opwarming en een gelijkmatige warmteverdeling blijven de grootste hinderpalen. De warmte ontwikkelt zich zeer snel en niet lineair. Uitvoerders beweren dat de magnetrons stapsgewijs in te stellen zijn naar een steeds hoger vermogen. Tijdens de bestrijding zijn de oppervlaktetemperaturen te controleren met een infraroodcamera, maar eigenlijk zouden de temperaturen in de kern gemeten moeten worden. Net zoals bij de huishoudmagnetron moeten metalen voorwerpen vermeden worden. Het is aanbevolen om tegelijkertijd met meerdere magnetrons en zelfs met isolatiemateriaal te"
-    },
-    "id" : "26",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Sprayed-insecticide",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
         "type" : "iri"
       } ],
       "seeAlso" : [ {
@@ -435,8 +190,219 @@
     "comment" : {
       "nl" : "De meeste spuitbussen tegen zowel kruipende als vliegende insecten bevatten permethrine, maar ook dichloorvos en chloorpyrifos. Ook bevatten ze dikwijls een pyrethrum of een mengsel van pyrethrinen gewonnen uit chrysanten. Laat u niet misleiden door hun label 'natuurlijk' of 'ecologisch product'. Het mengsel bevat doorgaans ook emulgatoren, harsen en andere producten. Spuit nooit op het object zelf, maar op een wit blaadje papier om te zien hoe het middel opdroogt en wat er achterblijft. Spuitbussen met een leegloopventiel zijn alleen werkzaam in een ruimte of kamer die voldoende afgesloten kan worden. Uiteraard kan niemand in de kamer blijven. Besproei de plaatsen waar vliegende insecten – zoals klustervliegen – samendrommen, met een insecticide met permethrine. Ruim dode exemplaren meteen op, want ze trekken andere insecten aan."
     },
-    "id" : "14",
-    "superClasses" : [ "8" ]
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Microwave-heating",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=38",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Insect-control_Microwave-heating",
+      "en" : "Microwave heating",
+      "nl" : "Verhitting door microgolven"
+    },
+    "comment" : {
+      "nl" : "Dergelijke methoden steunen op het principe dat watermoleculen in zowel hout als larven zo snel gaan bewegen dat ze opwarmen. Omdat larven meer vocht bevatten dan hout, warmen ze meer op. Droog hout wordt minder opgewarmd dan nat hout. Niet zozeer de houttemperatuur is van belang, wel de temperatuur van de larven, maar die kan niet gemeten worden. Het is uiteraard onmogelijk om alleen de larven op te warmen. Bestrijdingsmethoden met mobiele toestellen worden meer en meer toegepast, en sinds kort zijn ze ook in Vlaanderen commercieel beschikbaar. De ongecontroleerde opwarming en een gelijkmatige warmteverdeling blijven de grootste hinderpalen. De warmte ontwikkelt zich zeer snel en niet lineair. Uitvoerders beweren dat de magnetrons stapsgewijs in te stellen zijn naar een steeds hoger vermogen. Tijdens de bestrijding zijn de oppervlaktetemperaturen te controleren met een infraroodcamera, maar eigenlijk zouden de temperaturen in de kern gemeten moeten worden. Net zoals bij de huishoudmagnetron moeten metalen voorwerpen vermeden worden. Het is aanbevolen om tegelijkertijd met meerdere magnetrons en zelfs met isolatiemateriaal te"
+    },
+    "id" : "2",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/vcard/ns#Organization",
+    "baseIri" : "http://www.w3.org/2006/vcard/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Moth-repellent_Moth-paper",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=35",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Insect-control_Moth-repellent_Moth-paper",
+      "en" : "Moth paper",
+      "nl" : "Mottenpapier"
+    },
+    "comment" : {
+      "nl" : "Dit papier is vaak geïmpregneerd met het giftige chloorpyrifos. Alleen bij contact en in een gesloten omgeving gaan de insecten dood. Sacristiekasten zijn doorgaans niet hermetisch afgesloten en dus is mottenpapier er niet echt zinvol."
+    },
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Moth-repellent_Mothballs",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=35",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Insect-control_Moth-repellent_Mothballs",
+      "en" : "Mothballs",
+      "nl" : "Mottenballen"
+    },
+    "comment" : {
+      "nl" : "De mottenballen op basis van naftaleen raken stilaan in onbruik. Ze zijn schadelijk voor de mens en hun doeltreffendheid is erg twijfelachtig, tenzij bij zeer hoge concentraties. Geurballen op basis van paradichloorbenzeen zijn eveneens af te raden: ze zijn schadelijk voor de mens en hebben ongewenste effecten op de collectie."
+    },
+    "id" : "11",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Moth-repellent_Cedarwood",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=35",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Insect-control_Moth-repellent_Cedarwood",
+      "en" : "Cedarwood",
+      "nl" : "Cederhout"
+    },
+    "comment" : {
+      "nl" : "Cederblokjes kunnen helpen om insecten te weren, maar niet om ze te doden. De oliën waarmee het cederhout geïmpregneerd wordt, zullen insecten alleen afschrikken en verdrijven. Leg de blokjes nooit op het textiel zelf, want de olie kan vlekken nalaten. Besprenkel ze opnieuw met olie als de geur verdwenen is."
+    },
+    "id" : "20",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Liquid-insecticide",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=36",
+        "type" : "label"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=34",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Insect-control_Liquid-insecticide",
+      "en" : "Liquid insecticide",
+      "nl" : "Vloeibare insecticiden"
+    },
+    "subClasses" : [ "24", "25" ],
+    "comment" : {
+      "nl" : "Bij deze – meest gebruikte – methode komen de volwassen kevers aan het eind van de cyclus of bij het uitvliegen in contact met gif. Het insecticide wordt meestal met een borstel of kwast aangebracht en dringt hooguit enkele millimeters in het hout. Er bestaan ook kleine busjes waaraan een darmpje bevestigd is met een ventiel waarmee de uitvliegopeningen gevuld worden. Tegen kleine klopkevers werkt deze bestrijding goed omdat ze bij het uitvliegen vaak een opening knagen en dus contact maken met hout. Ze is ook effectief tegen huisboktorren omdat hun larven vaak tot dicht tegen het houtoppervlak knagen en de kevers ook een opening maken. Tegen grote klopkevers is ze weinig effectief: zowel bij het leggen van de eitjes als bij het uitvliegen maken ze zelden contact met het houtoppervlak. Het is een misvatting dat houtaantasters gaatjes knagen om hun eitjes in te leggen of zelfs hun eitjes leggen op het hout. Uit recent onderzoek blijkt dat ze vaak langs kieren of bestaande gaatjes naar binnen kruipen of een legboor gebruiken om eitjes te leggen. Daarom is oppervlaktebestrijding niet altijd even zinvol als preventieve bestrijding.\r\n\r\nU kunt zelf bestrijden met insecticiden bij:\r\n- eenvoudige houten voorwerpen die niet beschilderd of gevernist zijn;\r\n- voorwerpen met een beperkte sectie zoals plankenvloeren of kastwanden; \r\n- een zeer lokale aantasting;\r\n- vaste onderdelen die moeilijk los te behandelen zijn;\r\n\r\nZorg voor voldoende zelfbescherming volgens de richtlijnen van de fabrikant van het insecticide. Tegenwoordig worden voornamelijk synthetische pyrethroïden (deltamethrine, cypermethrine en permethrine) gebruikt, die het minst schadelijk zijn voor de mens. Ze zijn te verkrijgen in doe-het-zelfzaken en bevatten doorgaans iets lagere concentraties dan de professionele versies. De werking van de insecticiden wordt op 10 jaar geschat. \r\n\r\nVloeibare insecticiden en injectiebehandelingen (professionelen): \r\n- Kleine klopkever: Veel firma's bieden voor de bestrijding van aantastingen in timmerwerk nog heel vaak vloeibare insecticiden aan, die rechtstreeks op het hout gesproeid worden. Vandaar de term oppervlaktebestrijding. Ook de onbeschilderde delen van grote portiekaltaren worden dikwijls ingestreken met insecticide. Voor geverniste of beschilderde oppervlakken of kunstvoorwerpen zijn insecticiden absoluut af te raden. Ze zullen weinig effect hebben omdat ze alleen langs de gaatjes naar binnen kunnen dringen. Erger is dat de verflagen beschadigd kunnen raken door de solventen in de insecticidenoplossing en dat het hout gaat zwellen, met schade als gevolg.\r\n- grote klopkever: Bij een ernstige aantasting zal een oppervlaktebehandeling alleen niet volstaan. Bij een injectiebehandeling dringt het insecticide dieper in het hout. De balken worden geperforeerd, waarna er injectiepluggen ingebracht worden waarlangs het insecticide onder druk ingespoten wordt. Langs de bestaande vraatgangen kan het middel zich iets verder verspreiden. Bij gezond eikenhout verspreidt het zich onvoldoende of raakt het hout slechts plaatselijk verzadigd. Omdat de balken mechanisch beschadigd worden door de perforaties, mag er alleen zeer plaatselijk geïnjecteerd worden, bijvoorbeeld nadat de aantasting met detectiepapier zorgvuldig in kaart gebracht werd. Een oppervlaktebestrijding als aanvulling op een injectiebehandeling is alleen aan te raden als het echt nodig is. Ook de natuurlijke vijanden worden immers gedood, die de populatie mee helpen beperken en een biologisch evenwicht in de hand kunnen werken. Beschermde diersoorten zoals vleermuizen en uilen, blijven evenmin gespaard. Neem de nodige voorzorgsmaatregelen!"
+    },
+    "id" : "17",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Fungi-control_Address-moisture-problems",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=12",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Fungi-control_Address-moisture-problems",
+      "en" : "Address moisture problems",
+      "nl" : "Los vochtproblemen op"
+    },
+    "comment" : {
+      "nl" : "Door vocht weg te nemen – één van de grootste basisvoorwaarden – kan de verdere groei van een zwam stopgezet worden. De zwam zal dan in een rustperiode komen en uiteindelijk afsterven, met uitzondering van de huiszwam. Vergeet niet alle mogelijke oorzaken van vochtproblemen na te gaan: optrekkend grondwater, doorslaande regen, gebrekkige verluchting, condensatie, lekken in leidingen of in het dak, verstopte dakgoten… Zouten die vaak in muren zitten, verergeren het probleem omdat ze vocht aantrekken en vasthouden. Pas wanneer de exacte oorzaak bekend is, kunnen er gepaste maatregelen getroffen worden opdat de getroffen ruimte goed kan uitdrogen. Nadat de oorzaak van het vochtprobleem is weggenomen, kan extra ventilatie of in geval van extreme vochtigheid een tijdelijke verwarming, het uitdrogen versnellen. Let in beide gevallen op voor condensatie op koude constructies want dat kan een bijkomend vochtprobleem veroorzaken. Bij tijdelijke verwarming bestaat het risico dat het hout krimpt, kromtrekt of zelfs scheurt. Een gecontroleerde uitdroging, bij voorkeur door ventilatie, is dus aan te raden. Voorts helpt het ook om de besmette ruimte stofvrij te houden en vuilophoping te vermijden."
+    },
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insects-and-fungi-prevention_Avoid-dirt-accumulation",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=26",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Insects-and-fungi-prevention_Avoid-dirt-accumulation",
+      "en" : "Avoid dirt accumulation",
+      "nl" : "Vermijd stof- en vuilophoping"
+    },
+    "comment" : {
+      "nl" : "Een stofvrije omgeving vermindert de kans op alle biologische aantastingen. Stof houdt immers vocht vast. Het belet bovendien een goede controle op aantastingen. In het bijzonder oppervlakteschimmels hebben vaak niet veel meer dan een stoflaagje nodig om zich te manifesteren. Vuilophoping – bijvoorbeeld aan gewelfaanzetten of tussen lambriseringen en de muur – verhindert een goede ventilatie en werkt als een soort spons die vocht opslorpt, vasthoudt en in contact brengt met het hout."
+    },
+    "id" : "29",
+    "superClasses" : [ "30" ]
   }, {
     "iri" : "http://www.w3.org/2006/vcard/ns#Individual",
     "baseIri" : "http://www.w3.org/2006/vcard/ns",
@@ -447,14 +413,14 @@
     "attributes" : [ "external" ],
     "id" : "31"
   }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Cavity-insert",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Degraded-timber-repair_Cavity-insert",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
         "type" : "iri"
       } ],
       "seeAlso" : [ {
@@ -472,17 +438,17 @@
     "comment" : {
       "nl" : "Aangetaste houten delen kunnen vervangen worden door nieuwe houten inzetstukken (die preventief beschermd werden)."
     },
-    "id" : "32",
-    "superClasses" : [ "33" ]
+    "id" : "15",
+    "superClasses" : [ "6" ]
   }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Freezing",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Freezing",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
         "type" : "iri"
       } ],
       "seeAlso" : [ {
@@ -500,8 +466,8 @@
     "comment" : {
       "nl" : "Een relatief eenvoudige, goedkope bestrijding is het vriezen van textiel. De werkwijze is beschreven in de brochure Kerkelijk textiel behouden en bewaren, p. 25."
     },
-    "id" : "17",
-    "superClasses" : [ "8" ]
+    "id" : "23",
+    "superClasses" : [ "1" ]
   }, {
     "iri" : "http://purl.org/vocommons/voaf#Vocabulary",
     "baseIri" : "http://purl.org/vocommons/voaf",
@@ -510,23 +476,296 @@
       "IRI-based" : "Vocabulary"
     },
     "individuals" : [ {
-      "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+      "iri" : "https://w3id.org/con-tax/tasks/mwv",
       "baseIri" : "https://w3id.org/con-tax/tasks",
       "labels" : {
-        "IRI-based" : "monumentenwacht-vlaanderen"
+        "IRI-based" : "mwv"
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "48"
+    "id" : "45"
   }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Fungicide",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Hot-air-treatment_Heating-room",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=37",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Insect-control_Hot-air-treatment_Heating-room",
+      "en" : "Heating room",
+      "nl" : "Warmtekamer"
+    },
+    "comment" : {
+      "nl" : "Een warmtekamer is vooral geschikt om aantastingen in kunstvoorwerpen uit organisch materiaal te bestrijden. De voorwerpen worden in een geïsoleerde ruimte geplaatst, waarin de temperatuur langzaam wordt opgedreven en de relatieve vochtigheid onder controle blijft. In het depot van het Openluchtmuseum van Bokrijk worden onbeschilderde houten voorwerpen (zoals karren, kasten) op deze manier behandeld tegen houtboorders. Er bestaan ook mobiele kamers of containers, gemonteerd op een vrachtwagen."
+    },
+    "id" : "34",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Fungi-control_Remove-black-yeast",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=13",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Fungi-control_Remove-black-yeast",
+      "en" : "Remove black yeast",
+      "nl" : "Verwijder blauwschimmel"
+    },
+    "comment" : {
+      "nl" : "Blauwschimmels verwijderen die enkel een verkleuring aan de oppervlakte veroorzaken, lukt meestal door het hout krachtig te schuren (indien het voorwerp dit toelaat). Omdat deze schimmels vaak ontstaan als gevolg van een microklimaat in of onder een verweerde afwerklaag is regelmatig onderhoud van het houtwerk doorgaans afdoend om ze te voorkomen. Een aangepast preventief product biedt uiteraard nog meer garanties."
+    },
+    "id" : "39",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://w3id.org/cto#RepairTask",
+    "baseIri" : "https://w3id.org/cto",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RepairTask"
+    },
+    "subClasses" : [ "6", "28", "1", "30" ],
+    "attributes" : [ "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insects-and-fungi-prevention",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=26",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Insects-and-fungi-prevention",
+      "en" : "Prevention of deterioration by insects and fungi",
+      "nl" : "Preventie van aantasting door insecten en zwammen"
+    },
+    "subClasses" : [ "29", "54" ],
+    "comment" : {
+      "nl" : "De moderne erfgoedzorg streeft ernaar originele delen maximaal te behouden. Bij bouwkundige onderdelen wordt daarom liefst niet méér dan de aangetaste delen verwijderd. Die kunnen vervangen worden door nieuwe houten inzetstukken (die preventief beschermd werden) of er kan een prothese gemaakt worden met een epoxyharsmortel."
+    },
+    "id" : "30",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Moth-repellent_Moth-cassettes",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=35",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Insect-control_Moth-repellent_Moth-cassettes",
+      "en" : "Moth cassettes",
+      "nl" : "Mottencassettes"
+    },
+    "comment" : {
+      "nl" : "Hierbij wordt dichloorvos gebruikt, dat schadelijk is voor de mens; bovendien kunnen de dampen materialen beschadigen."
+    },
+    "id" : "58",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Degraded-timber-repair_Epoxy-resin-mortar-prosthesis",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=27",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Degraded-timber-repair_Epoxy-resin-mortar-prosthesis",
+      "en" : "Epoxy resin mortar prosthesis",
+      "nl" : "Epoxyharsmortel prothese"
+    },
+    "comment" : {
+      "nl" : "Aangetaste houten delen kunnen vervangen worden door een prothese gemaakt met een epoxyharsmortel. Bij dit laatste worden glasvezelstaven of roestvrijstalen staven ingebracht als wapening. Om het uitzicht zo natuurlijk mogelijk te houden wordt soms de houten bekisting bewaard waarin het epoxy wordt gegoten of wordt het oppervlak van het epoxy nadien bijgewerkt om hout te imiteren. In speciale gevallen worden de buitenzijden van een inwendig vermolmde balk behouden en wordt de binnenzijde met het kunsthars gevuld. Het nadeel van de herstellingen met epoxyhars is nog steeds de beperktere weerstand tegen hitte (veroorzaakt door brand). Zeker voor dikke balken is de brandweerstand van hout beter dan die van de epoxyherstelling. Het spreekt voor zich dat het verharden en vervangen van bouwkundige onderdelen specialistenwerk is. In de handel vindt u echter ook een ruime keuze van vulmiddelen waarmee u zelf aan de slag kunt voor kleinere delen, zoals ramen of deuren. Meestal betreft het ook tweecomponentenepoxyhars. Het verharden en eventueel bijwerken van beelden en andere esthetische onderdelen is dan weer het werk van een restaurateur. Zelf ingrijpen zal in de meeste gevallen onomkeerbare extra schade toebrengen. In de huidige restauratiefilosofie heerst veeleer een terughoudendheid tegen het vervangen van verdwenen delen en wordt er voorkeur aan gegeven om het resterende houtsnijwerk in die mate te verharden dat het weer veilig gemanipuleerd kan worden."
+    },
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insects-and-fungi-prevention_Address-moisture-problems",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=26",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Insects-and-fungi-prevention_Address-moisture-problems",
+      "en" : "Address moisture problems",
+      "nl" : "Los vochtproblemen op"
+    },
+    "comment" : {
+      "nl" : "Vochtinfiltratie, een te hoge relatieve vochtigheid en gebrek aan verluchting werken in de eerste plaats zwamaantastingen in de hand. Voor de grote klopkever en andere houtboorders is door schimmels verzwakt hout echter extra aantrekkelijk. Reinig en herstel daarom tijdig goten, afvoerbuizen, dakbedekking, voegwerk en lekkende kranen. Neem maatregelen tegen optrekkend vocht. In de meeste gebouwen is het niet eenvoudig om invloed uit te oefenen op de relatieve vochtigheid. Als die hoog is (75% en méér), maken zwamaantastingen meer kans, ook omdat er meer condensatievocht kan ontstaan op koude oppervlakken. Vermijd het alleszins om vocht toe te voegen aan de omgeving, door bijvoorbeeld te poetsen met weinig of geen water. In een vochtige omgeving is het extra belangrijk om regelmatig goed te verluchten. Zwammen en schimmels houden immers niet van tocht. Neem maatregelen om plaatselijke, vochtige microklimaten te voorkomen. Breng verluchtingsgaatjes aan in de plinten voor houten vloertjes. Voorzie een buffer bij voorwerpen die tegen een vochtige muur of koud materiaal (gevaar voor condensatie) rusten. Denk maar aan een schilderij tegen een muur of een houten beeld op een stenen console"
+    },
+    "id" : "54",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Fungi-control_Remove-surface-mould",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=12",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Fungi-control_Remove-surface-mould",
+      "en" : "Remove surface mould",
+      "nl" : "Verwijder oppervlakteschimmels"
+    },
+    "comment" : {
+      "nl" : "Oppervlakteschimmels laten zich doorgaans gemakkelijk verwijderen met een licht bevochtigde doek (die u nadien weggooit!). Gaat u tewerk met een stofzuiger, gebruik dan een aangepaste filter die voorkomt dat de sporen weer de ruimte in worden geblazen (een P3-filter of een HEPA-filter). Ontsmet de oppervlakken met een verbinding op basis van quaternair ammonium (quats). Er bestaat een ruime keuze van ontsmettingsmiddelen met quats maar sommige bevatten chemische middelen die best vermeden worden bij het behandelen van cultureel erfgoed. Quats moeten alleszins opgelost worden in water en moeten ook nagespoeld worden. Ze zijn dus niet voor eender welk oppervlak aan te bevelen. Op oppervlakken die bestand zijn tegen ethanol kunt u hiervan eventueel een oplossing van 70% gebruiken om te ontsmetten. Vergeet niet om tegelijk de luchtvochtigheid in de directe omgeving van het aangetaste voorwerp te verminderen, bijvoorbeeld door te zorgen voor voldoende en permanente verluchting"
+    },
+    "id" : "43",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Anoxia",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=40",
+        "type" : "label"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=33",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Insect-control_Anoxia",
+      "en" : "Reduced oxygen method (anoxia)",
+      "nl" : "Zuurstofarme methode (anoxie)"
+    },
+    "comment" : {
+      "nl" : "Eitjes, larven en insecten sterven af bij een langdurig gebrek aan zuurstof. \r\n\r\nKleine objecten:\r\nU kunt voorwerpen – van textiel of hout – verpakken in een bel van plastic folie, luchtdicht gemaakt met een lastang. Afhankelijk van het volume worden in de zak enkele zuurstofabsorbeerders geplaatst, kleine zakjes met ijzergranulaatkorrels die oxideren en zo zuurstof opnemen. Bij deze exotherme reactie wordt warmte afgegeven. De zakjes mogen dus geen contact hebben met het voorwerp. Een efficiënte behandeling duurt minstens één maand. Controleer het zuurstofgehalte regelmatig in die periode. \r\n\r\nGrote objecten:\r\nBij grotere objecten – zoals beelden of portiekaltaren – maken firma's of restaurateurs gebruik van grotere luchtbellen of tenten waarin de lucht zuurstofarm gemaakt wordt met separatoren die zuurstof en stikstof van elkaar scheiden. Omdat de stikstofconcentratie steeds hoger dan 99 % moet zijn en de bel nooit volledig luchtdicht is, wordt de lucht in de bel voortdurend gespoeld met droge stikstof. Door een\r\noverdruk en ventielen blijft de zuurstofarme lucht in de bel of tent. Het zuurstofgehalte, de luchtvochtigheid en de temperatuur moeten permanent gecontroleerd worden. Zo nodig wordt met bevochtigers gedistilleerd water verneveld of stoom toegevoegd. Ventilatoren voorkomen microklimaten in de bel. Stikstof is een goedkoop en inert gas dat uiterst geschikt is om kunstvoorwerpen te bestrijden. Het succes is afhankelijk van de luchtdichtheid in de bel of tent en van de bestrijdingsduur. Die bedraagt doorgaans 4 weken, maar kan verkort worden bij een hogere temperatuur en een lagere relatieve vochtigheid. Ook mag de bestrijding niet onderbroken worden, wat al eens voorvalt wegens de lichte geluidsoverlast. Bij grote objecten kunnen muren of vloeren vaak een van de wanden vormen van de tent. De aansluiting tussen de tent en de vloer of wand moet echter goed luchtdicht zijn. Ook deze methode vergt heel veel energie."
+    },
+    "id" : "13",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Toxic-gas",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=41",
+        "type" : "label"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=40",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Insect-control_Toxic-gas",
+      "en" : "Taxic gass",
+      "nl" : "Giftige gassen"
+    },
+    "comment" : {
+      "nl" : "Er bestaan tal van gassen om zowel voorwerpen in containers als hele gebouwen te behandelen. Tot voor kort was methylbromide een van de meest courante, maar sinds 2005 is dit gas verboden omdat het de ozonlaag aantast. Intussen hebben enkele Belgische firma's een erkenning om te werken met een vervanger, sulfurylfluoride (SF of Vikane©). Dit is een zeer giftig gas dat goed in het hout dringt en zowel larven en poppen als volwassen kevers doodt, maar niet de eitjes. Om die te doden moet de dosering verhogen of de blootstellingstijd verlengen. SF mag alleen gebruikt worden in een gasdicht afgesloten ruimte zoals een container. Een probleem dus voor monumentale gebouwen, omdat er op historische zolders of kapruimten met ongeïsoleerde dakvlakken steeds een natuurlijke ventilatie heerst. Een oplossing is het hele gebouw in te pakken in een gasdichte folie, of alle ramen, deuren, ventilatiespleten en andere openingen af te dichten met een speciale tape of zelfs polyurethaanschuim dat wel moeilijk te verwijderen is. In Nederland werd SF voor de bestrijding van rouwborden onlangs negatief geadviseerd omdat het veel materialen en pigmenten kan corroderen of beschadigen."
+    },
+    "id" : "36",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Fungi-control_Fungicide",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
         "type" : "iri"
       } ],
       "seeAlso" : [ {
@@ -549,78 +788,17 @@
     "comment" : {
       "nl" : "In het geval van huiszwam moet al het aangetaste hout en het hout in een veiligheidszone van 1 meter rond de aantasting verwijderd worden en onmiddellijk buiten het pand afgevoerd, dit laatste om een nieuwe aantasting te voorkomen. De bepleistering moet van de muren gekapt worden omdat de zwamdraden zich tussen de muur en de bepleistering kunnen vertakken. Spouwmuren of schouwdoorgangen zullen op verschillende plaatsen opengemaakt moeten worden, opdat de inwendige wanden ook behandeld kunnen worden. Bij andere zwammen, zoals kelderzwam of eikenzwam, moet enkel ingegrepen worden in de aangetaste zone. Daar moet onder meer het aangetaste hout verwijderd worden. Bij lichte aantasting volstaat meestal dat de zwam drooggelegd wordt (ventilatie; verwarming). Bij zwaardere aantasting wordt bij voorkeur ook een plaatselijke chemische bestrijding toegepast. Bij historisch waardevolle constructies (gesculpteerde houten balken, muurschilderingen, waardevol stucwerk…), waarbij het aangewezen is zoveel mogelijk materiaal te bewaren, zal een ingewikkeldere bestrijdingstechniek gebruikt moeten worden. Deze technieken vragen meer tijd en vaak is een herhaalde behandeling nodig. In de ontmantelde zone moeten de muren grondig afgeschuurd worden met een stalen borstel. Muurvlakken worden ontsmet met behulp van een steekvlam (bijzondere waakzaamheid is geboden voor gas- en elektriciteitsleidingen). Losse objecten in de omgeving worden kiemvrij gemaakt met een ontsmettingsmiddel op basis van quaternair ammonium of met een alcohol. Nadat de aantasting verwijderd werd, worden fungiciden op het oppervlak gestreken of gesproeid, zowel op het overgebleven en het aangrenzende hout als op het metselwerk. Bij ernstige aantastingen is een dieptebehandeling van het aangetaste materiaal onontbeerlijk. Hierbij worden fungiciden onder druk geïnjecteerd in voorgeboorde gaten. Vaak is ook een dieptebehandeling van het metselwerk nodig om de diep ingedrongen resten van huiszwam te vernietigen. Een behandeling met fungicide werkt zowel curatief als preventief. Een fungicide dat in de handel te verkrijgen is om het hout in te strijken, is enkel doeltreffend wanneer de oorzaak van het vocht weggenomen is en wanneer het om een beginnende zwamaantasting gaat. Enkel fungiciden gebruiken zonder de oorzaak aan te pakken is dus nutteloos."
     },
-    "id" : "5",
-    "superClasses" : [ "1" ]
+    "id" : "47",
+    "superClasses" : [ "28" ]
   }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Toxic-gas",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Hot-air-treatment",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=40",
-        "type" : "label"
-      }, {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=41",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Insect-control_Toxic-gas",
-      "en" : "Taxic gass",
-      "nl" : "Giftige gassen"
-    },
-    "comment" : {
-      "nl" : "Er bestaan tal van gassen om zowel voorwerpen in containers als hele gebouwen te behandelen. Tot voor kort was methylbromide een van de meest courante, maar sinds 2005 is dit gas verboden omdat het de ozonlaag aantast. Intussen hebben enkele Belgische firma's een erkenning om te werken met een vervanger, sulfurylfluoride (SF of Vikane©). Dit is een zeer giftig gas dat goed in het hout dringt en zowel larven en poppen als volwassen kevers doodt, maar niet de eitjes. Om die te doden moet de dosering verhogen of de blootstellingstijd verlengen. SF mag alleen gebruikt worden in een gasdicht afgesloten ruimte zoals een container. Een probleem dus voor monumentale gebouwen, omdat er op historische zolders of kapruimten met ongeïsoleerde dakvlakken steeds een natuurlijke ventilatie heerst. Een oplossing is het hele gebouw in te pakken in een gasdichte folie, of alle ramen, deuren, ventilatiespleten en andere openingen af te dichten met een speciale tape of zelfs polyurethaanschuim dat wel moeilijk te verwijderen is. In Nederland werd SF voor de bestrijding van rouwborden onlangs negatief geadviseerd omdat het veel materialen en pigmenten kan corroderen of beschadigen."
-    },
-    "id" : "24",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Solvent-based",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=34",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Insect-control_Liquid-Insecticide_Solvent-based",
-      "en" : "Water-based liquid insecticide",
-      "nl" : "Watergedragen insecticiden"
-    },
-    "comment" : {
-      "nl" : "Er bestaan watergedragen en solventgedragen insecticiden. De watergedragen middelen zijn veiliger in gebruik, maar kunnen het hout flink doen zwellen en vervormen, met een reëel risico op schade. De solventgedragen middelen, die meestal in white spirit zijn opgelost, zijn minder veilig, maar hebben een betere penetratie en veroorzaken minder zwelling."
-    },
-    "id" : "10",
-    "superClasses" : [ "7" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
         "type" : "iri"
       } ],
       "seeAlso" : [ {
@@ -638,27 +816,17 @@
     "comment" : {
       "nl" : "Een heteluchtbestrijding kan ook de eitjes en de larven treffen. Hoe hoger de temperatuur, hoe sneller er sterfte optreedt. De meeste uitvoerders warmen het object geleidelijk op tot 48-55°C, houden die temperatuur 24 uur lang aan, en koelen het daarna weer geleidelijk af. Sensoren in houten blokken met dezelfde sectie als de aangetaste objecten, helpen het opwarmingsproces te controleren. Ook het vochtgehalte moet de hele tijd op peil gehouden worden, anders kan er schade ontstaan aan de materialen. Dat kan door de voorwerpen vacuüm te verpakken of door vocht toe te voegen tijdens het verwarmen. Dat blijkt voor veel uitvoerders een probleem. Indien correct toegepast, is deze methode geschikt om aantastingen in onbeschilderd en ongevernist hout te bestrijden zoals balken van een dakstructuur, maar niet voor voorwerpen met verlijmingen. Om warmteverlies te voorkomen, kan het nuttig zijn om extra isolatie aan te brengen en openingen dicht te maken. Heteluchtbestrijding kan op verschillende manieren uitgevoerd worden. Wij beperken ons tot de meest courante:\r\n- mobiele heteluchtbestrijding\r\n- warmtekamer"
     },
-    "id" : "28",
-    "superClasses" : [ "8" ]
+    "id" : "19",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "https://w3id.org/cto#RepairTask",
-    "baseIri" : "https://w3id.org/cto",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "RepairTask"
-    },
-    "subClasses" : [ "1", "33", "8", "41" ],
-    "attributes" : [ "external" ],
-    "id" : "2"
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Moth-repellent",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
         "type" : "iri"
       } ],
       "seeAlso" : [ {
@@ -673,21 +841,107 @@
       "en" : "Moth repellent",
       "nl" : "Motwerende middelen"
     },
-    "subClasses" : [ "11", "15", "47", "51" ],
+    "subClasses" : [ "58", "9", "11", "20" ],
     "comment" : {
       "nl" : "Motwerende middelen zijn meestal te verkrijgen in de supermarkt. Ze worden zowel curatief als preventief gebruikt, hoewel ze geen dodelijke werking hebben. Ze proberen insecten af te schrikken of te verdrijven. Voorbeelden zijn:\r\n- Mottenpapier\r\n- Mottencassettes\r\n- Mottenballen\r\n- Cederhout"
     },
-    "id" : "12",
-    "superClasses" : [ "8" ]
+    "id" : "10",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair_Epoxy-resin-mortar-prosthesis",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Fungi-control",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=12",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Fungi-control",
+      "en" : "Fungi control",
+      "nl" : "Bestrijding van zwammen"
+    },
+    "subClasses" : [ "47", "39", "27", "43" ],
+    "comment" : {
+      "nl" : "U kunt best zelf een aantal maatregelen treffen om de groei van een zwam af te remmen of te stoppen. Vaak zijn dat kleine dingen die erger kunnen voorkomen in afwachting van de komst van een specialist. Zwamaantastingen zijn al gauw te groot om eigenhandig te verwijderen. Doe daarom tijdig een beroep op specialisten. De bestrijding zal afhangen van het type zwam dat wordt vastgesteld."
+    },
+    "id" : "28",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=33",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Insect-control",
+      "en" : "Insect control",
+      "nl" : "Insect beheersing"
+    },
+    "subClasses" : [ "41", "34", "0", "36", "2", "19", "10", "23", "13", "8", "17" ],
+    "comment" : {
+      "nl" : "Als de insecten blijven terugkomen, de oorzaak niet achterhaald kon worden en alle mogelijke preventieve maatregelen uitgevoerd zijn, dan is het tijd om ze te bestrijden, om curatief in te grijpen. In grote ruimten zoals een kerkinterieur beperken aantastingen zich zelden tot een voorwerp of een bouwonderdeel. Een bestrijding moet daarom integraal aangepakt worden. Het heeft geen zin om een beeld te bestrijden en aangetaste kerkstoelen ongemoeid te laten. Beheerders en erfgoedzorgers kunnen zelf heel wat aan bestrijding doen, al blijven professionele methodes soms vereist."
+    },
+    "id" : "1",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Liquid-Insecticide_Solvent-based",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
+        "type" : "iri"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=34",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Insect-control_Liquid-Insecticide_Solvent-based",
+      "en" : "Water-based liquid insecticide",
+      "nl" : "Watergedragen insecticiden"
+    },
+    "comment" : {
+      "nl" : "Er bestaan watergedragen en solventgedragen insecticiden. De watergedragen middelen zijn veiliger in gebruik, maar kunnen het hout flink doen zwellen en vervormen, met een reëel risico op schade. De solventgedragen middelen, die meestal in white spirit zijn opgelost, zijn minder veilig, maar hebben een betere penetratie en veroorzaken minder zwelling."
+    },
+    "id" : "25",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Degraded-timber-repair",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
         "type" : "iri"
       } ],
       "seeAlso" : [ {
@@ -698,193 +952,25 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "Degraded-timber-repair_Epoxy-resin-mortar-prosthesis",
-      "en" : "Epoxy resin mortar prosthesis",
-      "nl" : "Epoxyharsmortel prothese"
+      "IRI-based" : "Degraded-timber-repair",
+      "en" : "Degraded timber repair",
+      "nl" : "Aangetast hout herstellen"
     },
-    "comment" : {
-      "nl" : "Aangetaste houten delen kunnen vervangen worden door een prothese gemaakt met een epoxyharsmortel. Bij dit laatste worden glasvezelstaven of roestvrijstalen staven ingebracht als wapening. Om het uitzicht zo natuurlijk mogelijk te houden wordt soms de houten bekisting bewaard waarin het epoxy wordt gegoten of wordt het oppervlak van het epoxy nadien bijgewerkt om hout te imiteren. In speciale gevallen worden de buitenzijden van een inwendig vermolmde balk behouden en wordt de binnenzijde met het kunsthars gevuld. Het nadeel van de herstellingen met epoxyhars is nog steeds de beperktere weerstand tegen hitte (veroorzaakt door brand). Zeker voor dikke balken is de brandweerstand van hout beter dan die van de epoxyherstelling. Het spreekt voor zich dat het verharden en vervangen van bouwkundige onderdelen specialistenwerk is. In de handel vindt u echter ook een ruime keuze van vulmiddelen waarmee u zelf aan de slag kunt voor kleinere delen, zoals ramen of deuren. Meestal betreft het ook tweecomponentenepoxyhars. Het verharden en eventueel bijwerken van beelden en andere esthetische onderdelen is dan weer het werk van een restaurateur. Zelf ingrijpen zal in de meeste gevallen onomkeerbare extra schade toebrengen. In de huidige restauratiefilosofie heerst veeleer een terughoudendheid tegen het vervangen van verdwenen delen en wordt er voorkeur aan gegeven om het resterende houtsnijwerk in die mate te verharden dat het weer veilig gemanipuleerd kan worden."
-    },
-    "id" : "36",
-    "superClasses" : [ "33" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Avoid-dirt-accumulation",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=26",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Insects-and-fungi-prevention_Avoid-dirt-accumulation",
-      "en" : "Avoid dirt accumulation",
-      "nl" : "Vermijd stof- en vuilophoping"
-    },
-    "comment" : {
-      "nl" : "Een stofvrije omgeving vermindert de kans op alle biologische aantastingen. Stof houdt immers vocht vast. Het belet bovendien een goede controle op aantastingen. In het bijzonder oppervlakteschimmels hebben vaak niet veel meer dan een stoflaagje nodig om zich te manifesteren. Vuilophoping – bijvoorbeeld aan gewelfaanzetten of tussen lambriseringen en de muur – verhindert een goede ventilatie en werkt als een soort spons die vocht opslorpt, vasthoudt en in contact brengt met het hout."
-    },
-    "id" : "40",
-    "superClasses" : [ "41" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Cedarwood",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=35",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Insect-control_Moth-repellent_Cedarwood",
-      "en" : "Cedarwood",
-      "nl" : "Cederhout"
-    },
-    "comment" : {
-      "nl" : "Cederblokjes kunnen helpen om insecten te weren, maar niet om ze te doden. De oliën waarmee het cederhout geïmpregneerd wordt, zullen insecten alleen afschrikken en verdrijven. Leg de blokjes nooit op het textiel zelf, want de olie kan vlekken nalaten. Besprenkel ze opnieuw met olie als de geur verdwenen is."
-    },
-    "id" : "47",
-    "superClasses" : [ "12" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention_Address-moisture-problems",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=26",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Insects-and-fungi-prevention_Address-moisture-problems",
-      "en" : "Address moisture problems",
-      "nl" : "Los vochtproblemen op"
-    },
-    "comment" : {
-      "nl" : "Vochtinfiltratie, een te hoge relatieve vochtigheid en gebrek aan verluchting werken in de eerste plaats zwamaantastingen in de hand. Voor de grote klopkever en andere houtboorders is door schimmels verzwakt hout echter extra aantrekkelijk. Reinig en herstel daarom tijdig goten, afvoerbuizen, dakbedekking, voegwerk en lekkende kranen. Neem maatregelen tegen optrekkend vocht. In de meeste gebouwen is het niet eenvoudig om invloed uit te oefenen op de relatieve vochtigheid. Als die hoog is (75% en méér), maken zwamaantastingen meer kans, ook omdat er meer condensatievocht kan ontstaan op koude oppervlakken. Vermijd het alleszins om vocht toe te voegen aan de omgeving, door bijvoorbeeld te poetsen met weinig of geen water. In een vochtige omgeving is het extra belangrijk om regelmatig goed te verluchten. Zwammen en schimmels houden immers niet van tocht. Neem maatregelen om plaatselijke, vochtige microklimaten te voorkomen. Breng verluchtingsgaatjes aan in de plinten voor houten vloertjes. Voorzie een buffer bij voorwerpen die tegen een vochtige muur of koud materiaal (gevaar voor condensatie) rusten. Denk maar aan een schilderij tegen een muur of een houten beeld op een stenen console"
-    },
-    "id" : "45",
-    "superClasses" : [ "41" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Moth-repellent_Mothballs",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=35",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Insect-control_Moth-repellent_Mothballs",
-      "en" : "Mothballs",
-      "nl" : "Mottenballen"
-    },
-    "comment" : {
-      "nl" : "De mottenballen op basis van naftaleen raken stilaan in onbruik. Ze zijn schadelijk voor de mens en hun doeltreffendheid is erg twijfelachtig, tenzij bij zeer hoge concentraties. Geurballen op basis van paradichloorbenzeen zijn eveneens af te raden: ze zijn schadelijk voor de mens en hebben ongewenste effecten op de collectie."
-    },
-    "id" : "51",
-    "superClasses" : [ "12" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Fungi-control_Remove-black-yeast",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=13",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Fungi-control_Remove-black-yeast",
-      "en" : "Remove black yeast",
-      "nl" : "Verwijder blauwschimmel"
-    },
-    "comment" : {
-      "nl" : "Blauwschimmels verwijderen die enkel een verkleuring aan de oppervlakte veroorzaken, lukt meestal door het hout krachtig te schuren (indien het voorwerp dit toelaat). Omdat deze schimmels vaak ontstaan als gevolg van een microklimaat in of onder een verweerde afwerklaag is regelmatig onderhoud van het houtwerk doorgaans afdoend om ze te voorkomen. Een aangepast preventief product biedt uiteraard nog meer garanties."
-    },
-    "id" : "3",
-    "superClasses" : [ "1" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insects-and-fungi-prevention",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=26",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Insects-and-fungi-prevention",
-      "en" : "Prevention of deterioration by insects and fungi",
-      "nl" : "Preventie van aantasting door insecten en zwammen"
-    },
-    "subClasses" : [ "40", "45" ],
+    "subClasses" : [ "15", "5" ],
     "comment" : {
       "nl" : "De moderne erfgoedzorg streeft ernaar originele delen maximaal te behouden. Bij bouwkundige onderdelen wordt daarom liefst niet méér dan de aangetaste delen verwijderd. Die kunnen vervangen worden door nieuwe houten inzetstukken (die preventief beschermd werden) of er kan een prothese gemaakt worden met een epoxyharsmortel."
     },
-    "id" : "41",
-    "superClasses" : [ "2" ]
+    "id" : "6",
+    "superClasses" : [ "50" ]
   }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_CO2-treatment",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_CO2-treatment",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
         "type" : "iri"
       } ],
       "seeAlso" : [ {
@@ -902,17 +988,17 @@
     "comment" : {
       "nl" : "Bij een bestrijding met CO2 moet de concentratie in de omgevingslucht groter zijn dan 60 %. Ze wordt vooral toegepast in hersluitbare, luchtdichte bellen waarin bijvoorbeeld museale kunstvoorwerpen geplaatst worden. De behandeltijd is onder andere afhankelijk van de temperatuur en bedraagt 3 tot 5 weken bij 20°C. De voorwaarden voor de luchtdichtheid van de bel zijn minder strikt zolang de concentratie maar op 60 % blijft. Omdat CO2 een droog gas is, moet er vaak bevochtigd worden om scheuren in houten voorwerpen te voorkomen."
     },
-    "id" : "38",
-    "superClasses" : [ "8" ]
+    "id" : "41",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Liquid-Insecticide_Water-based",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Liquid-Insecticide_Water-based",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
         "type" : "iri"
       } ],
       "seeAlso" : [ {
@@ -930,75 +1016,17 @@
     "comment" : {
       "nl" : "Er bestaan watergedragen en solventgedragen insecticiden. De watergedragen middelen zijn veiliger in gebruik, maar kunnen het hout flink doen zwellen en vervormen, met een reëel risico op schade. De solventgedragen middelen, die meestal in white spirit zijn opgelost, zijn minder veilig, maar hebben een betere penetratie en veroorzaken minder zwelling."
     },
-    "id" : "9",
-    "superClasses" : [ "7" ]
+    "id" : "24",
+    "superClasses" : [ "17" ]
   }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Degraded-timber-repair",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+    "iri" : "https://w3id.org/con-tax/tasks/mwv#Insect-control_Hot-air-treatment_Mobile",
+    "baseIri" : "https://w3id.org/con-tax/tasks/mwv",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=27",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Degraded-timber-repair",
-      "en" : "Degraded timber repair",
-      "nl" : "Aangetast hout herstellen"
-    },
-    "subClasses" : [ "32", "36" ],
-    "comment" : {
-      "nl" : "De moderne erfgoedzorg streeft ernaar originele delen maximaal te behouden. Bij bouwkundige onderdelen wordt daarom liefst niet méér dan de aangetaste delen verwijderd. Die kunnen vervangen worden door nieuwe houten inzetstukken (die preventief beschermd werden) of er kan een prothese gemaakt worden met een epoxyharsmortel."
-    },
-    "id" : "33",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=33",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Insect-control",
-      "en" : "Insect control",
-      "nl" : "Insect beheersing"
-    },
-    "subClasses" : [ "7", "38", "26", "24", "30", "28", "19", "17", "22", "12", "14" ],
-    "comment" : {
-      "nl" : "Als de insecten blijven terugkomen, de oorzaak niet achterhaald kon worden en alle mogelijke preventieve maatregelen uitgevoerd zijn, dan is het tijd om ze te bestrijden, om curatief in te grijpen. In grote ruimten zoals een kerkinterieur beperken aantastingen zich zelden tot een voorwerp of een bouwonderdeel. Een bestrijding moet daarom integraal aangepakt worden. Het heeft geen zin om een beeld te bestrijden en aangetaste kerkstoelen ongemoeid te laten. Beheerders en erfgoedzorgers kunnen zelf heel wat aan bestrijding doen, al blijven professionele methodes soms vereist."
-    },
-    "id" : "8",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Mobile",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+        "value" : "https://w3id.org/con-tax/tasks/mwv",
         "type" : "iri"
       } ],
       "seeAlso" : [ {
@@ -1016,39 +1044,20 @@
     "comment" : {
       "nl" : "Mobiele heteluchtbestrijding is vooral geschikt voor timmerwerk, constructiehout en molens. Met generatoren op propaangas wordt ter plaatse warme lucht geproduceerd die in een ruimte of een tent wordt geblazen. Bij de verbranding van het propaangas ontstaat een enorme waterdampproductie die kan neerslaan of condenseren op koudere voorwerpen. Ook kan er een verwarmingstoestel buiten het gebouw geplaatst worden waarbij, ofwel flexibele warmeluchtkanalen tot op de te behandelen plaats geleid worden, ofwel warme vloeistof getransporteerd wordt naar uitblaasopeningen in die ruimte. Isoleer de ruimte extra en verkies een warme periode voor deze methode: de energiekosten kunnen immers hoog oplopen!"
     },
-    "id" : "30",
-    "superClasses" : [ "8" ]
-  }, {
-    "iri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#Insect-control_Hot-air-treatment_Heating-room",
-    "baseIri" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
-        "type" : "iri"
-      } ],
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=37",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Insect-control_Hot-air-treatment_Heating-room",
-      "en" : "Heating room",
-      "nl" : "Warmtekamer"
-    },
-    "comment" : {
-      "nl" : "Een warmtekamer is vooral geschikt om aantastingen in kunstvoorwerpen uit organisch materiaal te bestrijden. De voorwerpen worden in een geïsoleerde ruimte geplaatst, waarin de temperatuur langzaam wordt opgedreven en de relatieve vochtigheid onder controle blijft. In het depot van het Openluchtmuseum van Bokrijk worden onbeschilderde houten voorwerpen (zoals karren, kasten) op deze manier behandeld tegen houtboorders. Er bestaan ook mobiele kamers of containers, gemonteerd op een vrachtwagen."
-    },
-    "id" : "22",
-    "superClasses" : [ "8" ]
+    "id" : "8",
+    "superClasses" : [ "1" ]
   } ],
   "property" : [ {
-    "id" : "13",
+    "id" : "4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "16",
@@ -1057,25 +1066,19 @@
     "id" : "18",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "20",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "21",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "23",
+    "id" : "22",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "25",
+    "id" : "26",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "27",
+    "id" : "32",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "29",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "34",
+    "id" : "33",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "35",
@@ -1084,13 +1087,13 @@
     "id" : "37",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "39",
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "42",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "43",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "44",
@@ -1099,19 +1102,19 @@
     "id" : "46",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "49",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "50",
+    "id" : "51",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "52",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "53",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "54",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "55",
@@ -1121,9 +1124,6 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "57",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "58",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "59",
@@ -1136,149 +1136,149 @@
     "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
-    "range" : "8",
-    "domain" : "14",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "13"
-  }, {
-    "range" : "8",
-    "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "16"
-  }, {
-    "range" : "8",
-    "domain" : "19",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "18"
-  }, {
-    "range" : "8",
-    "domain" : "12",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "20"
-  }, {
-    "range" : "8",
-    "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "21"
-  }, {
-    "range" : "8",
-    "domain" : "24",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "23"
-  }, {
-    "range" : "8",
-    "domain" : "26",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "25"
-  }, {
-    "range" : "8",
-    "domain" : "28",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "27"
-  }, {
-    "range" : "8",
-    "domain" : "30",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "29"
-  }, {
-    "range" : "8",
-    "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "34"
-  }, {
-    "range" : "33",
-    "domain" : "36",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "35"
-  }, {
-    "range" : "8",
-    "domain" : "38",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "37"
-  }, {
-    "range" : "41",
-    "domain" : "40",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "39"
-  }, {
-    "range" : "7",
-    "domain" : "10",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "42"
-  }, {
-    "range" : "33",
-    "domain" : "32",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "43"
-  }, {
-    "range" : "41",
-    "domain" : "45",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "44"
-  }, {
-    "range" : "12",
-    "domain" : "47",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "46"
-  }, {
-    "range" : "7",
-    "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "49"
-  }, {
-    "range" : "12",
-    "domain" : "51",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "50"
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "4"
   }, {
     "range" : "1",
-    "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "52"
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "7"
+  }, {
+    "range" : "1",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "6",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "1",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "1",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "1",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "1",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "1",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
   }, {
     "range" : "1",
     "domain" : "0",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "1",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "1",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "28",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "1",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "28",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "10",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "28",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "10",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "50",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "range" : "50",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "30",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "30",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "53"
   }, {
-    "range" : "2",
-    "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "54"
-  }, {
-    "range" : "2",
-    "domain" : "33",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "17",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "55"
   }, {
-    "range" : "2",
-    "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "17",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "56"
   }, {
-    "range" : "2",
-    "domain" : "41",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "10",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "57"
   }, {
-    "range" : "12",
-    "domain" : "11",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "58"
-  }, {
-    "range" : "12",
-    "domain" : "15",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "59"
   }, {
-    "range" : "1",
-    "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "50",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "60"
   }, {
-    "range" : "1",
-    "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "50",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "61"
   } ]
 }
